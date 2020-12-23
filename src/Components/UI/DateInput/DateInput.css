@@ -1,0 +1,22 @@
+input {
+    margin: 0;
+}
+
+.date-picker-custom {
+    font-size: 14px;
+    line-height: 17px;
+    color: #666666;
+    font-weight: 400;
+    margin-right: 5px;
+}
+
+.react-date-picker__wrapper {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    padding: 5px;
+    min-width: 100px;
+}
+
+.react-date-picker__inputGroup__year {
+    min-width: 38px !important;
+}

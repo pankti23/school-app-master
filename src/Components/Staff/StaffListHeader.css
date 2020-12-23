@@ -1,0 +1,41 @@
+.staff-page-header-container {
+    width: 100%;
+}
+
+.staff-page-h1-header-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.staff-page-h1-header-wrapper>h1 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.add-staff-button {
+    color: #fafafc;
+    background-color: #737376;
+    border: 0.5px solid #636366;
+    border-radius: 3px;
+    font-size: 15px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    line-height: 0;
+}
+
+.add-staff-button-plus {
+    font-size: 1rem;
+    margin-right: 10px;
+}
+
+.staff-page-subheading-text {
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #737376;
+}
+
+.modal-open {
+    overflow: hidden;
+}

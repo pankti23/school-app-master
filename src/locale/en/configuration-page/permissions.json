@@ -1,0 +1,56 @@
+{
+  "main": {
+    "header": {
+      "title": "Permissions",
+      "paragraph": "This is where you can configure permissions for each role."
+    }
+  },
+  "role": {
+    "administrative-permissions": "Administrative Permissions",
+    "permission-type": {
+      "calendar": "Calendar",
+      "communication": "Communication",
+      "configuration": "Configuration",
+      "other": "Other",
+      "school-staff": "School Staff",
+      "students": "Students"
+    },
+    "permissions": {
+      "After School Group Students": "After School Group Students",
+      "After School Group Teachers": "After School Group Teachers",
+      "After School Groups": "After School Groups",
+      "Campuses": "Campuses",
+      "Grades": "Grades",
+      "Grading Systems": "Grading Systems",
+      "Groups": "Groups",
+      "Levels": "Levels",
+      "Permissions": "Permissions",
+      "School Info": "School Info",
+      "Subjects": "Subjects",
+      "Users": "Staff",
+      "Yearbook": "Photos",
+      "Students": "Students",
+      "Subject Scores": "Subject Scores",
+      "Group Subject Teachers": "Group Subject Teachers",
+      "Subject Teachers": "Subject Teachers",
+      "Calendar Items": "Calendar Items",
+      "Campus Chat Rooms": "Campus Chat Rooms",
+      "Grade Chat Rooms": "Grade Chat Rooms",
+      "Groups Chat Rooms": "Groups Chat Rooms",
+      "Level Chat Rooms": "Level Chat Rooms"
+    },
+    "group": {
+      "button": {
+        "disable-all": "Disable All",
+        "read-all": "Read All",
+        "write-all": "Write All",
+        "save": "Save"
+      },
+      "message": {
+        "error": {
+          "api": "Error loading data."
+        }
+      }
+    }
+  }
+}

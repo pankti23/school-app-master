@@ -1,0 +1,38 @@
+.config-campus-container {
+  background-color: #fafafc;
+  border: 1px solid rgba(151, 151, 151, 0.1);
+  border-radius: 6px;
+  box-shadow: 0 -1px 1px 0 #ebebeb, 0 -3px 6px 0 #dbdbdb;
+  width: 100%;
+  margin-bottom: 20px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.textContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.buttonText {
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 500;
+  margin-left: 5px;
+}
+
+.empty-structure {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.empty-structure img {
+  margin: 0 5px 0 0;
+}

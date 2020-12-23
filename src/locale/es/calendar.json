@@ -1,0 +1,92 @@
+{
+  "sidebar": {
+    "add-button": "Añadir objeto a este calendario",
+    "visibility": {
+      "title": "Mostrar objetos visibles"
+    },
+    "filter-label": "Mostrar objetos del calendario"
+  },
+  "calendar": {
+    "value": {
+      "day-names-full": [
+        "Domingo",
+        "Lunes",
+        "Martes",
+        "Miércoles",
+        "Jueves",
+        "Viernes",
+        "Sábado"
+      ],
+      "day-names-short": ["Dom", "Lun", "Mar", "Mié", "Jue", "Vie", "Sáb"],
+      "day-names-chars": ["D", "L", "M", "M", "J", "V", "S"]
+    },
+    "item-modal": {
+      "title": {
+        "update": "Actualizar objeto de calendario",
+        "create": "Crear un nuevo objeto en el calendario"
+      },
+      "input": {
+        "item-type": "Tipo de objeto:",
+        "subject": "Titulo:",
+        "location": "Ubicación:",
+        "schedule": {
+          "label": "Fecha del objeto",
+          "until": "Hasta",
+          "checkbox": {
+            "all-day": "Todo el día",
+            "repeat": "Repetir"
+          },
+          "repeat": {
+            "label": "Repite cada:",
+            "option": {
+              "none": "Ninguno",
+              "day": "Día",
+              "week": "Semana",
+              "month": "Mes",
+              "year": "Año"
+            },
+            "repetition-end": "Repetir hasta"
+          }
+        },
+        "description": "Descripción:",
+        "attach": {
+          "label": "Añadir objetos a este calendario.",
+          "button": "Seleccionar archivo"
+        }
+      },
+      "visibility": {
+        "title": "¿Quién puede ver este objeto?"
+      },
+      "button": {
+        "cancel": "Cancelar",
+        "save": "Guardar",
+        "saving": "Guardando..."
+      },
+      "change-repeat": "¡Estás cambiando un evento recurrente!"
+    },
+    "view-modal": {
+      "rectangle": {
+        "calendar-item": "Objeto de calendario",
+        "visible": {
+          "label": "Visible para:",
+          "all": "Todo lo"
+        },
+        "date-time": "Fecha/Hora",
+        "location": "Ubicación"
+      },
+      "description": "Descripción",
+      "attachment": {
+        "label": "Adjuntos",
+        "none": "Sin archivo adjunto"
+      },
+      "students": "Alumnos",
+      "creator": "Creador",
+      "delete-confirmation": "¿Seguro que deseas eliminar este objeto?",
+      "button": {
+        "cancel": "Cancelar",
+        "delete": "Eliminar",
+        "edit": "Modificar"
+      }
+    }
+  }
+}

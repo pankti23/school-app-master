@@ -1,0 +1,30 @@
+{
+  "main": {
+    "links": {
+      "calendar": "Calendar",
+      "staff": "Staff",
+      "students": "Students",
+      "configuration": "Config",
+      "mobile": "Mobile"
+    },
+    "button": {
+      "settings": "Settings",
+      "logout": "Logout"
+    },
+    "modal": {
+      "success": "The user has been saved successfully"
+    }
+  },
+  "profile-modal": {
+    "title": "Your Profile",
+    "input": {
+      "full-name": "Full Name",
+      "email": "Email Address"
+    },
+    "button": {
+      "file-select": "Select a file",
+      "cancel": "Cancel",
+      "save": "Save"
+    }
+  }
+}

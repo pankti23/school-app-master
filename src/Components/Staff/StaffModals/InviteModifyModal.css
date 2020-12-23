@@ -1,0 +1,45 @@
+.staff-list-modify-buttons-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.staff-list-modify-select-bar {
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+.staff-list-modify-select-label {
+    margin-bottom: 3px;
+    font-weight: 500;
+}
+
+.modify-button-choice-wrapper {
+    padding: 0 10px;
+}
+
+.modify-nav-button {
+    margin-right: 5px;
+    padding: 5px;
+    box-shadow: none;
+    background-color: gray;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 500;
+    border: none;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.modify-nav-button:hover {
+    background-color: rgb(107, 110, 116);
+}
+
+.invite-checkbox-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}

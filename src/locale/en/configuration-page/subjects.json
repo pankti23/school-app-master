@@ -1,0 +1,69 @@
+{
+  "main": {
+    "header-title": "All Subjects Configuration",
+    "header-paragraph": "This is where you configure all of the subjects that are used within your organization.",
+    "message": {
+      "error": {
+        "api": "Error loading data."
+      }
+    }
+  },
+  "manager": {
+    "header": {
+      "title": "Subjects enabled within your organization",
+      "manage-subjects-button": "Manage Subjects"
+    },
+    "table": {
+      "search-placeholder": "Search for a subject",
+      "remove-selected": ["Remove", "Selected Subject", "Selected Subjects"],
+      "head": {
+        "subject": "SUBJECT",
+        "teachers": "ASSIGNED TEACHERS",
+        "actions": "ACTIONS"
+      },
+      "teachers": ["Teacher", "Teachers"],
+      "remove-button": "Remove",
+      "message": {
+        "error": {
+          "api": "Request failed with status code"
+        }
+      }
+    },
+    "delete-modal": {
+      "confirmation": [
+        "Are you sure you want to delete this subject?",
+        "Are you sure you want to delete these subjects?"
+      ],
+      "button": {
+        "cancel": "Cancel",
+        "confirm": "Confirm"
+      },
+      "message": {
+        "error": "Error deleting group:"
+      }
+    },
+    "message": {
+      "error": {
+        "api": "Request failed with status code"
+      }
+    }
+  },
+  "manage-subjects-modal": {
+    "header-title": "Managing Subjects",
+    "custom-subject": {
+      "title": "Create Custom Subject",
+      "subject-name-placeholder": "Subject Name",
+      "add-button": "Add Custom Subject"
+    },
+    "search-placeholder": "Search through subject library",
+    "button": {
+      "cancel": "Cancel",
+      "confirm": "Confirm"
+    },
+    "message": {
+      "error": {
+        "exists": "Error: This subject already exists!"
+      }
+    }
+  }
+}

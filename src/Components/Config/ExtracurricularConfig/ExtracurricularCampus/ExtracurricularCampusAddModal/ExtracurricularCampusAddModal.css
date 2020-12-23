@@ -1,0 +1,146 @@
+.extracurricular-campus-add-modal-container {
+  background-color: #ffffff;
+  border-radius: 6px;
+  box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.25),
+    0px 0px 0px 5px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  min-width: 450px;
+}
+
+.extracurricular-campus-add-modal-bottom-container {
+  display: flex;
+  justify-content: flex-end;
+  padding: 16px 30px;
+}
+
+.extracurricular-campus-add-modal-bottom-cancel-button {
+  background-color: #fafafc;
+  border-radius: 3px;
+  border: 1px solid #dbdbdb;
+  margin-right: 12px;
+  padding: 10px 0;
+  width: 72px;
+}
+
+.extracurricular-campus-add-modal-bottom-cancel-button:active {
+  background-color: #f8f8fa;
+  box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.04);
+}
+
+.extracurricular-campus-add-modal-bottom-cancel-button-text {
+  color: #000000;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 14px;
+}
+
+.extracurricular-campus-add-modal-bottom-confirm-button {
+  background-color: #5cc26b;
+  border-radius: 3px;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 1px 0 #ebebeb, 0 3px 6px 0 #dbdbdb;
+  padding: 10px 0;
+  width: 72px;
+}
+
+.extracurricular-campus-add-modal-bottom-confirm-button:active {
+  background-color: #58be68;
+  box-shadow: 0 1px 1px 0 #ebebeb, 0 3px 6px 0 #dbdbdb,
+    inset 0px 0px 8px rgba(0, 0, 0, 0.08);
+}
+
+.extracurricular-campus-add-modal-bottom-confirm-button-text {
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 16px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+}
+
+.extracurricular-campus-add-modal-divider {
+  background-color: #ebebeb;
+  height: 1px;
+}
+
+.extracurricular-campus-add-modal-middle-container {
+  padding: 30px;
+}
+
+.extracurricular-campus-add-modal-middle-input {
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  color: #000000;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  padding: 12px;
+}
+
+.extracurricular-campus-add-modal-middle-input::placeholder {
+  color: #ababab;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  opacity: 1;
+}
+
+.extracurricular-campus-add-modal-middle-input-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.extracurricular-campus-add-modal-middle-input-error-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 6px;
+}
+
+.extracurricular-campus-add-modal-middle-input-error-text {
+  color: #ff0000;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  margin-top: 4px;
+}
+
+.extracurricular-campus-add-modal-middle-input-title-text {
+  color: #000000;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17px;
+  margin-bottom: 10px;
+}
+
+.extracurricular-campus-add-modal-top-container {
+  padding: 30px;
+}
+
+.extracurricular-campus-add-modal-top-text {
+  color: #373737;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+}
+
+.extracurricular-campus-add-modal-wrapper {
+  align-items: center;
+  background-color: rgba(83, 107, 148, 0.664);
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  left: 0;
+  padding: 16px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 2;
+}

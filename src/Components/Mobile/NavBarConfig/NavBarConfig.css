@@ -1,0 +1,73 @@
+.NavBarConfig {
+  background-color: #fafafc;
+  border-radius: 6px 0 0 6px;
+  padding: 30px 20px;
+}
+
+.config-navbar-current-page {
+  color: #000000;
+  font-weight: 500;
+}
+
+.config-navbar-links {
+  margin-top: 32px;
+  width: 180px;
+}
+
+.NavBarHeader {
+  border-bottom: 1px solid #ebebeb;
+  padding-bottom: 25px;
+  width: 178px;
+}
+
+.NavBarHeader > h1 {
+  font-size: 1.5em;
+}
+
+li {
+  color: #737376;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 1001px) {
+  .NavBarConfig {
+    height: 100vh;
+  }
+  li {
+    margin-left: 0;
+    margin-top: 1em;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .NavBarConfig {
+    width: 100%;
+  }
+  .NavBarHeader {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+  .NavBarHeader > h1 {
+    margin-left: 20px;
+    margin-bottom: 10px;
+  }
+  .config-navbar-container > nav {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 12px;
+  }
+
+  .config-navbar-links {
+    margin-top: 0;
+    width: 100%;
+  }
+
+  li {
+    padding: 10px;
+    font-size: 0.8rem;
+  }
+}

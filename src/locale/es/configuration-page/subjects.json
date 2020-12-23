@@ -1,0 +1,73 @@
+{
+  "main": {
+    "header-title": "Configuración de materias",
+    "header-paragraph": "Configuran las materias de la organización.",
+    "message": {
+      "error": {
+        "api": "Error al cargar información."
+      }
+    }
+  },
+  "manager": {
+    "header": {
+      "title": "Materias habilitadas en la organización",
+      "manage-subjects-button": "Administrar materias"
+    },
+    "table": {
+      "search-placeholder": "Buscar materia",
+      "remove-selected": [
+        "Eliminar",
+        "materias seleccionadas",
+        "materias seleccionadas"
+      ],
+      "head": {
+        "subject": "Materias",
+        "teachers": "Asignar profesores",
+        "actions": "Acciones"
+      },
+      "teachers": ["Profesores", "Profesores"],
+      "remove-button": "Eliminar",
+      "message": {
+        "error": {
+          "api": "Solicitud fallida. Código de error:"
+        }
+      }
+    },
+    "delete-modal": {
+      "confirmation": [
+        "¿Seguro que deseas eliminar esta materia?",
+        "¿Seguro que deseas eliminar estas materias?"
+      ],
+      "button": {
+        "cancel": "Cancelar",
+        "confirm": "Guardar"
+      },
+      "message": {
+        "error": "Error eliminando Grupo:"
+      }
+    },
+    "message": {
+      "error": {
+        "api": "Solicitud fallida. Código de error:"
+      }
+    }
+  },
+  "manage-subjects-modal": {
+    "header-title": "Administrar materias",
+    "custom-subject": {
+      "title": "Crear materia personalizada",
+      "subject-name-placeholder": "Nombre de la materia",
+      "add-button": "Añadir materia personalizada"
+    },
+    "search-placeholder": "Buscar en catálogo de materias",
+    "button": {
+      "cancel": "Cancelar",
+      "confirm": "Guardar"
+    },
+    "message": {
+      "error": {
+        "exists": "Error: ¡Esa materia ya existe!"
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+.permissions-role-container {
+  background-color: #ffffff;
+  border-radius: 6px;
+  border: 1px solid rgba(151, 151, 151, 0.1);
+  box-shadow: 0 -1px 1px 0 #ebebeb, 0 -3px 6px 0 #dbdbdb;
+}
+
+.permissions-role-content-container {
+  box-shadow: 0 -1px 1px 0 #ebebeb;
+  padding: 30px;
+}
+
+.permissions-role-header-container {
+  align-items: center;
+  background-color: #fafafc;
+  border-radius: 6px 6px 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 15px 30px;
+}
+
+.permissions-role-header-left-container {
+  margin: 8px 8px 8px 0;
+}
+
+.permissions-role-header-left-text {
+  color: #000000;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+}
+
+.permissions-role-header-right-container {
+}

@@ -1,0 +1,264 @@
+.photo-config-list {
+}
+
+.photo-config-list-container-text {
+    color: #737376;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    text-align: left;
+}
+
+.photo-config-list-container {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.photo-list-top-section {
+    background-color: #ecedf1;
+    border: 1px solid rgba(151, 151, 151, 0.1);
+    border-radius: 6px 6px 0 0;
+    box-shadow: 0 1px 1px 0 #ebebeb, 0 3px 6px 0 #dbdbdb;
+    padding: 10px;
+
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.photo-config-list-table-header-row {
+    background-color: #fafafc;
+    border: 1px solid #dbdbdb;
+    display: flex;
+
+    color: #818a9c;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    text-align: left;
+}
+
+.photo-config-list-checkbox-header-column {
+    padding: 10px;
+    border: 1px solid #dbdbdb;
+    flex: -1;
+}
+
+.photo-config-list-photo-header-column {
+    padding: 10px;
+    border: 1px solid #dbdbdb;
+    flex: 1;
+}
+
+.photo-config-list-teachers-header-column {
+    padding: 10px;
+    border: 1px solid #dbdbdb;
+    flex: 3;
+}
+
+.photo-config-list-actions-header-column {
+    padding: 10px;
+    border: 1px solid #dbdbdb;
+    flex: -1;
+}
+/*              */
+/*              */
+/*              */
+/*              */
+/*              */
+/*              */
+.photo-config-list-table {
+    background-color: #ecedf1;
+    border-collapse: collapse;
+    border-radius: 6px;
+}
+
+.photo-config-list-table-buttons {
+    background: none;
+    border: none;
+    padding: 0;
+}
+
+.photo-config-list-table-buttons::-moz-focus-inner {
+    border: none;
+}
+
+.photo-config-list-table-buttons:active {
+    background-color: rgba(0, 0, 0, 0.02);
+    box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.1);
+}
+
+.photo-config-list-table-buttons:hover {
+    transform: scale(1);
+}
+
+.photo-config-list-table-head-bottom {
+    background-color: #fafafc;
+}
+
+.photo-config-list-table-head-bottom-actions-cell {
+    border-top: 1px solid #dbdbdb;
+    padding: 20px 16px;
+    width: 0.01%;
+}
+
+.photo-config-list-table-head-bottom-actions-cell-text {
+    color: #737376;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    text-align: left;
+}
+
+.photo-config-list-table-head-bottom-cell-text {
+    color: #737376;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    text-align: left;
+}
+
+.photo-config-list-table-head-bottom-checkbox-cell {
+    border-right: 1px solid #dbdbdb;
+    border-top: 1px solid #dbdbdb;
+    width: 40px;
+}
+
+.photo-config-list-table-head-bottom-checkbox-cell-container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.photo-config-list-table-head-bottom-photo-cell {
+    border-right: 1px solid #dbdbdb;
+    border-top: 1px solid #dbdbdb;
+    padding: 20px;
+    text-align: left;
+}
+
+.photo-config-list-table-head-bottom-teachers-cell {
+    border-right: 1px solid #dbdbdb;
+    border-top: 1px solid #dbdbdb;
+    padding: 20px;
+    text-align: left;
+}
+
+.photo-config-list-table-head-top {
+    background-color: #ecedf1;
+    border-radius: 6px 6px 0 0;
+}
+
+.photo-config-list-table-head-top-remove-cell {
+    text-align: left;
+}
+
+.photo-config-list-table-head-top-remove-cell-button {
+    height: 52px;
+}
+
+.photo-config-list-table-head-top-remove-cell-text {
+    color: #737376;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    margin: 0 60px 0 18px;
+    text-align: left;
+}
+
+.photo-config-list-table-head-top-search-cell {
+    border-right: 1px solid #dbdbdb;
+    padding: 10px;
+    width: 0.01%;
+}
+
+.photo-config-list-table-rows-checkbox-cell {
+    border-right: 1px solid #dbdbdb;
+    border-top: 1px solid #dbdbdb;
+    background-color: #ffffff;
+    text-align: center;
+    width: 40px;
+}
+
+.photo-config-list-table-rows-checkbox-cell-container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.photo-config-list-table-rows-remove-cell {
+    background-color: #ffffff;
+    border-top: 1px solid #dbdbdb;
+    text-align: center;
+}
+
+.photo-config-list-table-rows-remove-cell-button {
+    align-items: center;
+    display: flex;
+    height: 64px;
+    width: 100%;
+}
+
+.photo-config-list-table-rows-remove-cell-text {
+    color: #737376;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    margin: 0 18px;
+    text-align: left;
+}
+
+.photo-config-list-table-rows-row {
+}
+
+.photo-config-list-table-rows-photo-cell {
+    background-color: #ffffff;
+    border-right: 1px solid #dbdbdb;
+    border-top: 1px solid #dbdbdb;
+    padding: 20px;
+}
+
+.photo-config-list-table-rows-photo-cell-text {
+    color: #737376;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    text-align: left;
+}
+
+.photo-config-list-table-rows-teachers-cell {
+    background-color: #ffffff;
+    border-right: 1px solid #dbdbdb;
+    border-top: 1px solid #dbdbdb;
+}
+
+.photo-config-list-table-rows-teachers-cell-button {
+    align-items: center;
+    display: flex;
+    height: 64px;
+    width: 100%;
+}
+
+.photo-config-list-table-rows-teachers-cell-text {
+    color: #737376;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    margin: 0 18px;
+    text-align: left;
+}
+
+.photo-config-list-table-wrapper {
+    border-radius: 6px;
+    box-shadow: 0 1px 1px 0 #ebebeb, 0 3px 6px 0 #dbdbdb;
+    display: block;
+    margin: 32px;
+    overflow: auto;
+}

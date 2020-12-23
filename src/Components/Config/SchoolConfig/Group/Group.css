@@ -1,0 +1,11 @@
+.config-group-container {
+  background-color: #ececf3;
+  border: 1px solid #dbdbdb;
+  border-radius: 6px;
+  box-shadow: 0 1px 1px 0 #ebebeb, 0 3px 6px 0 #dbdbdb;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.config-groupings-contaier {
+}

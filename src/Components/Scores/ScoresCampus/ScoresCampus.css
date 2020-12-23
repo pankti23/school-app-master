@@ -1,0 +1,106 @@
+.scores-campus-container {
+  background-color: #fafafc;
+  border-radius: 6px;
+  border: 1px solid rgba(151, 151, 151, 0.1);
+  box-shadow: 0 -1px 1px 0 #ebebeb, 0 3px 6px 0 #dbdbdb;
+  display: flex;
+  padding: 16px 30px;
+  flex-direction: column;
+}
+
+.scores-campus-content-container {
+}
+
+.scores-campus-content-grade-container {
+  margin-bottom: 30px;
+}
+
+.scores-campus-content-grade-container:first-child {
+  margin-top: 32px;
+}
+
+.scores-campus-content-grade-container:last-child {
+  margin-bottom: 14px;
+}
+
+.scores-campus-header-bottom-container {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.scores-campus-header-bottom-left-container {
+  margin-right: 16px;
+}
+
+.scores-campus-header-bottom-left-text {
+  color: #737376;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.scores-campus-header-bottom-right-container {
+}
+
+.scores-campus-header-bottom-right-dropdown {
+  background-color: #ffffff;
+  border-radius: 2px;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px;
+  width: 200px;
+}
+
+.scores-campus-header-bottom-right-dropdown:focus {
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+.scores-campus-header-bottom-right-dropdown:active {
+  background-color: #fdfdfd;
+  box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.04);
+}
+
+.scores-campus-header-bottom-right-dropdown-text {
+  color: #373737;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14px;
+}
+
+.scores-campus-header-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.scores-campus-header-divider {
+  background-color: #dbdbdb;
+  height: 1px;
+  margin: 15px 0 20px;
+}
+
+.scores-campus-header-top-container {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.scores-campus-header-top-left-container {
+  margin-right: 16px;
+}
+
+.scores-campus-header-top-left-text {
+  color: #000000;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21px;
+}
+
+.scores-campus-header-top-right-container {
+}

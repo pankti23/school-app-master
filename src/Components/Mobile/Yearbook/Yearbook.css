@@ -1,0 +1,42 @@
+.yearbook-config-container {
+    background-color: #ffffff;
+    border-radius: 6px 0 0 6px;
+    border: 1px solid rgba(151, 151, 151, 0.1);
+    box-shadow: -1px 0 1px 0 #ebebeb, -1px 0 15px 0 #dbdbdb;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    min-height: 100vh;
+}
+
+.yearbook-config-content {
+    margin-bottom: 20px;
+}
+
+.yearbook-config-content-container {
+    padding: 40px;
+}
+
+.yearbook-config-header-container {
+    background-color: #fafafc;
+    border-radius: 6px 0 0;
+    box-shadow: 0 1px 0 0 #e2e2e2;
+    padding: 25px 40px;
+}
+
+.yearbook-config-header-paragraph-text {
+    color: #737376;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    margin-top: 10px;
+}
+
+.yearbook-config-header-title-text {
+    color: #000000;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+}

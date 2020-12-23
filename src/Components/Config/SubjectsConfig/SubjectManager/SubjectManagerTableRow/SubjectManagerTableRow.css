@@ -1,0 +1,53 @@
+
+.subject-config-manager-table-row {
+  background-color: #FAFAFC;
+  border: .001em solid #DBDBDB;
+  display: flex;
+
+  color: #818A9C;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17px;
+  text-align: left;
+}
+
+.subject-config-manager-checkbox-column {
+  padding: 10px;
+  border: 1px solid #DBDBDB;
+  flex: -1;
+}
+
+.subject-config-manager-subject-column {
+  padding: 10px;
+  border: 1px solid #DBDBDB;
+  flex: 1;
+
+  color: #737376;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  text-align: left;
+
+}
+
+.subject-config-manager-teachers-column {
+  padding: 10px;
+  border: 1px solid #DBDBDB;
+  flex: 3;
+
+}
+
+.subject-config-manager-actions-column {
+  padding: 10px;
+  border: 1px solid #DBDBDB;
+  flex: -1;
+}
+
+.check-box-icon,
+.unchecked-box-icon {
+  border: 1px solid rgba(151, 151, 151, 0.1);
+  border-radius: 3px;
+  box-shadow: 0 1px 1px 0 #EBEBEB, 0 3px 6px 0 #DBDBDB;
+}

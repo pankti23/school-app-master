@@ -1,0 +1,11 @@
+.checkbox-input {
+    margin: 0 10px 0 0;
+}
+
+[type="checkbox"] {
+    vertical-align:text-top;
+}
+
+[type="checkbox"], label {
+    cursor: pointer;
+}

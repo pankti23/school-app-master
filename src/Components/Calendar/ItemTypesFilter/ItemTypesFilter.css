@@ -1,0 +1,26 @@
+.types-filter-container {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.types-filter-title {
+    color: #363636;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    text-align: left;
+}
+
+.types-filter-options {
+    padding-top: 15px;
+}
+
+.types-filter-option {
+    margin: 10px 0;
+    color: #363636;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    text-align: left;
+}

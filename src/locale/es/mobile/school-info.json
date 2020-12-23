@@ -1,0 +1,80 @@
+{
+  "main": {
+    "header-title": "Información del Colegio",
+    "header-paragraph": "Información que se muestra a los usuarios de la aplicación móvil.",
+    "message": {
+      "error": {
+        "api": "Error al cargar información."
+      }
+    }
+  },
+  "school": {
+    "header-title": "Información del Colegio",
+    "input": {
+      "name": "Nombre del Colegio",
+      "logo": {
+        "title": "Logo del Colegio",
+        "upload-button": {
+          "text": "Cargar logo",
+          "message": {
+            "error": {
+              "type": "Error: ¡El tipo de archivo debe ser PNG!",
+              "width": "Error: ¡La imagen debe ser de por lo menos 500px de ancho!",
+              "height": "Error: ¡La imagen debe ser de por lo menos 500px de alto!",
+              "api": "Error: Solicitud fallida. Código de error:"
+            }
+          }
+        },
+        "requirements": {
+          "title": "Requisitos del archivo de imagen",
+          "file-type": "Tipo de archivo: .png",
+          "dimensions": "Dimensiones mínimas: 500px de ancho por 250 px de alto"
+        },
+        "palette": "Seleccionar paleta de color"
+      }
+    },
+    "save-button": {
+      "text": "Guardar",
+      "message": {
+        "error": {
+          "api": "Error: Solicitud fallida. Código de error:"
+        },
+        "success": "¡Información de calificaciones guardada!",
+        "info": {
+          "no-changes": "No changes made!"
+        }
+      }
+    }
+  },
+  "campus": {
+    "header-title": ["Información del", ""],
+    "input": {
+      "campus": "Plantel",
+      "address": "Dirección",
+      "website": "Sitio web",
+      "phone": "Teléfono",
+      "email": "Correo electrónico",
+      "social-media": {
+        "title": "Cuentas de Redes Sociales",
+        "facebook": "Facebook",
+        "twitter": "Twitter",
+        "youtube": "YouTube",
+        "linkedin": "LinkedIn",
+        "instagram": "Instagram"
+      }
+    },
+    "save-button": {
+      "text": "Guardar",
+      "message": {
+        "error": {
+          "name-exists": "¡Ese nombre de Campus ya existe!",
+          "api": "Error: Solicitud fallida. Código de error:"
+        },
+        "success": "¡Información de calificaciones guardada!",
+        "info": {
+          "no-changes": "No changes made!"
+        }
+      }
+    }
+  }
+}

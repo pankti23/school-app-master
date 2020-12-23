@@ -1,0 +1,136 @@
+{
+  "main": {
+    "header": {
+      "title": "Alumnos",
+      "paragraph": "Todos los alumnos de la Organización",
+      "add-button": "Invitar nuevo"
+    }
+  },
+  "students-table": {
+    "search-input": "Buscar alumnos",
+    "button": {
+      "modify": "Modificar",
+      "delete": "Eliminar"
+    },
+    "head": {
+      "student-name": "Nombre del alumno",
+      "campus": "Plantel",
+      "level": "Nivel",
+      "grade": "Grado",
+      "group": "Grupo",
+      "parent1": "Padre/Madre #1",
+      "parent2": "Padre/Madre #2",
+      "asg": "Extra-escolar",
+      "actions": "Acciones"
+    },
+    "row": {
+      "more": "Más",
+      "button": {
+        "modify": "Modificar",
+        "resend": "Enviar de nuevo",
+        "delete": "Eliminar"
+      },
+      "resend": {
+        "message": {
+          "error": {
+            "activated": "El usuario ya está activo"
+          },
+          "success": {
+            "sent": "Un nuevo correo de activación ha sido enviado"
+          }
+        }
+      }
+    },
+    "pagination": {
+      "entries": ["Mostrando", "de", "registros"],
+      "display": ["Mostrar", "Por página"],
+      "go-to-page": "Ir a la página",
+      "go": "Ir"
+    }
+  },
+  "modify-modal": {
+    "title": ["Modificar", "Seleccionar"],
+    "input": {
+      "student-name": "Nombre del alumno",
+      "campus": "Plantel",
+      "level": "Nivel",
+      "grade": "Grado",
+      "group": "Grupo",
+      "email1": "Correo electrónico #1",
+      "email2": "Correo electrónico #2",
+      "asg": "Extra-escolar",
+      "last-active": "Última actividad",
+      "placeholder": "Seleccionar"
+    },
+    "button": {
+      "cancel": "Cancelar",
+      "save": "Guardar",
+      "add-new-asg": "Añadir"
+    }
+  },
+  "delete-modal": {
+    "title": "¿Seguro que deseas eliminar estos alumnos?",
+    "button": {
+      "cancel": "Cancelar",
+      "confirm": "Confirmar"
+    }
+  },
+  "invite-modal": {
+    "title": "Selecciona un método para invitar alumnos:",
+    "button": {
+      "import-csv": "Invitar mediante un archivo .csv",
+      "invite-email": "Invitar mediante correo electrónico",
+      "cancel": "Cancelar"
+    },
+    "csv": {
+      "title": "Importar alumnos utilizando un archivo .csv",
+      "template-download": "Bajar plantilla de carga para alumnos",
+      "upload-csv": "Cargar archivo .csv",
+      "button": {
+        "upload": "Seleccionar archivo",
+        "back": "Regresar",
+        "cancel": "Cancelar",
+        "create": "Crear"
+      },
+      "import-columns": {
+        "header": {
+          "title": "Validar columnas a importar",
+          "paragraph": "Asegúrate de que la asignación es correcta. Esta acción no se puede deshacer.",
+          "warning-message": "*Nota: Asegúrese de completar todos los datos en el CSV."
+        },
+        "label": {
+          "column": "comuna es:",
+          "placeholder": "Choose One"
+        }
+      }
+    },
+    "email": {
+      "title": "Invitar alumnos por correo electrónico",
+      "email-input": {
+        "name": "Nombre del alumno",
+        "email1": "#1 Correo electrónico de padres",
+        "email2": "#2 Correo electrónico de padres",
+        "campus": "Plantel",
+        "level": "Nivel",
+        "grade": "Grado",
+        "group": "Grupo",
+        "placeholder": "Seleccionar",
+        "more-button": "Invitar más..."
+      },
+      "button": {
+        "back": "Regresar",
+        "cancel": "Cancelar",
+        "create": "Crear"
+      }
+    },
+    "message": {
+      "info": {
+        "add": "¡Has añadido usuarios! Por favor espera o refresca la página para ver los cambios."
+      }
+    }
+  },
+  "errors": {
+    "unauthorized-access": "Solicite permiso al administrador para acceder",
+    "role-already-assigned": "El usuario ya tiene asignado un rol y no se le puede asignar otro"
+  }
+}

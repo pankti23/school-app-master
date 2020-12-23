@@ -1,0 +1,68 @@
+{
+  "main": {
+    "header": {
+      "title": "Extra-escolar",
+      "paragraph": "Configurar estructura del programa extra-escolar."
+    },
+    "message": {
+      "error": {
+        "api": "Error al cargar información."
+      }
+    }
+  },
+  "campus": {
+    "add-group-button": "Añadir un grupo extra-escolar",
+    "add-modal": {
+      "title": "Añadir un grupo extra-escolar a",
+      "input": "Nombre del extra-escolar",
+      "button": {
+        "cancel": "Cancelar",
+        "confirm": "Crear"
+      },
+      "message": {
+        "error": {
+          "text": "Error añadiendo Grupo:",
+          "empty": "Nombre del Grupo no puede estar vacío",
+          "exists": "¡El Grupo ya existe!",
+          "api": "Solicitud fallida. Código de error:"
+        }
+      }
+    }
+  },
+  "group": {
+    "message": {
+      "error": {
+        "empty": "Nombre del Grupo no puede estar vacío",
+        "exists": "Error: ¡El nombre del Grupo ya existe!",
+        "api": "Solicitud fallida. Código de error:"
+      }
+    },
+    "edit-dropdown": {
+      "rename": "Renombrar",
+      "delete": "Eliminar"
+    },
+    "delete-modal": {
+      "title": "¿Estás seguro de querer eliminar este Grupo?",
+      "button": {
+        "cancel": "Cancelar",
+        "confirm": "Confirmar"
+      },
+      "message": {
+        "error": {
+          "text": "Error eliminando Grupo:",
+          "exists": "¡El Grupo aún contiene alumnos y/o profesores!",
+          "api": "Solicitud fallida. Código de error:"
+        }
+      }
+    },
+    "member": {
+      "type": {
+        "teachers": "Profesores",
+        "students": "Alumnos",
+        "teachers-2": ["Profesor", "Profesores"],
+        "students-2": ["Alumno", "Alumnos"]
+      },
+      "external": "Ir a"
+    }
+  }
+}

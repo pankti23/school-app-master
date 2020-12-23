@@ -1,0 +1,31 @@
+.minimize-button {
+  background-color: #ffffff;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  padding: 4px 14px;
+}
+
+.minimize-button:focus {
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+.minimize-button:active {
+  box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.04);
+}
+
+.minimize-button-container {
+  align-items: center;
+  display: flex;
+}
+
+.minimize-button-text {
+  color: #000000;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14px;
+  margin-left: 5px;
+}
+
+.minimize-button-text-container {
+}

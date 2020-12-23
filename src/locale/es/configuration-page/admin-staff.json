@@ -1,0 +1,68 @@
+{
+  "main": {
+    "header": {
+      "title": "Configuración de personal administrativo",
+      "paragraph": "Configurar a directores y administradores del plantel."
+    }
+  },
+  "school": {
+    "title": "Organización escolar",
+    "admin": {
+      "title": "Administradores escolares",
+      "table": {
+        "name": "Nombre",
+        "search-input": "Buscar personal"
+      }
+    }
+  },
+  "campus": {
+    "title": "Directores",
+    "add-staff-button": "Añadir personal",
+    "add-staff-modal": {
+      "title": "Añadir miembros",
+      "subtitle": "Directores",
+      "search-input": "Buscar personal",
+      "button": {
+        "cancel": "Cancelar",
+        "add": "Añadir"
+      }
+    },
+    "table": {
+      "name": "Nombre",
+      "actions": "Acciones",
+      "search-input": "Buscar personal",
+      "remove-button": "Eliminar",
+      "remove-selected-button": [
+        "Eliminar",
+        "personas",
+        "seleccionadas",
+        "seleccionadas"
+      ]
+    }
+  },
+  "level": {
+    "title": "Directores",
+    "add-staff-button": "Añadir personal",
+    "add-staff-modal": {
+      "title": "Añadir miembros",
+      "subtitle": "Directores",
+      "search-input": "Buscar personal",
+      "button": {
+        "cancel": "Cancelar",
+        "add": "Añadir"
+      }
+    },
+    "table": {
+      "name": "Nombre",
+      "actions": "Acciones",
+      "search-input": "Buscar personal",
+      "remove-button": "Eliminar",
+      "remove-selected-button": [
+        "Eliminar",
+        "personas",
+        "seleccionadas",
+        "seleccionadas"
+      ]
+    }
+  }
+}

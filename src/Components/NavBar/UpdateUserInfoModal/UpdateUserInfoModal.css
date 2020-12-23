@@ -1,0 +1,139 @@
+.user-info-modal-wrapper {
+  background-color: rgba(83, 107, 148, 0.664);
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-info-modal-container {
+  min-width: 500px;
+  background-color: #ffffff;
+  border-radius: 6px;
+  box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.25),
+    0px 0px 0px 5px rgba(0, 0, 0, 0.25);
+}
+
+.invite-new-main-modal {
+  min-width: 60%;
+  border-radius: 9px;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  /* height: 100%; */
+  /* border: 5px solid rgba(0, 0, 0, 0.25); */
+}
+
+.user-info-modal-container.invite-new-modal {
+  min-width: 60%;
+  border-radius: 6px;
+  border: none;
+}
+
+.user-info-modal-heading {
+  font-size: 19px;
+  padding: 19px;
+  font-weight: bold;
+  color: #3e3e3e;
+}
+
+.user-info-modal-gray-bar {
+  width: 100%;
+  border-bottom: 2px solid #f6f6f6;
+}
+
+.user-profile-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+}
+
+.user-profile-image .preview-image-user-photo {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.user-info-input-container {
+  display: flex;
+}
+
+.user-info-input-container > div {
+  margin: 20px 20px;
+}
+
+.user-info-photo-upload-container {
+  margin: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.user-info-photo-upload-container > input {
+  margin-left: 10px;
+}
+
+.user-info-input-title {
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.user-info-button-container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.user-info-trash-icon {
+  margin-left: 10px;
+  color: #737376;
+  cursor: pointer;
+}
+
+/* custom file upload */
+
+.input-file-container {
+  position: relative;
+  /* margin-left: 10px; */
+}
+
+.input-file {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.input-file:hover + .input-file-trigger,
+.input-file:focus + .input-file-trigger,
+.input-file-trigger:hover,
+.input-file-trigger:focus {
+  background: rgb(67, 72, 77);
+}
+
+.input-file-trigger {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 45px;
+  background: #737376;
+  color: #fff;
+  font-size: 15px;
+  transition: all 0.4s;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.input-actions-wrapper{
+  display: inline-flex;
+  align-items: center;
+}
+
+.input-user-file-selection {
+  width: 100%;
+  height: 84%;
+}

@@ -1,0 +1,149 @@
+.yearbook-group-container {
+  background-color: #fafafc;
+  border-radius: 6px;
+  border: 1px solid rgba(151, 151, 151, 0.1);
+  box-shadow: 0 -1px 1px 0 #ebebeb, 0 -3px 6px 0 #dbdbdb;
+}
+
+.yearbook-group-header-add-button {
+  background-color: #5cc26b;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  box-shadow: 0 1px 1px 0 #ebebeb, 0 3px 6px 0 #dbdbdb;
+  padding: 10px 20px;
+}
+
+.yearbook-group-header-add-button::-moz-focus-inner {
+  border: 0;
+}
+
+.yearbook-group-header-add-button:active {
+  background-color: #58be68;
+  box-shadow: 0 1px 1px 0 #ebebeb, 0 3px 6px 0 #dbdbdb,
+    inset 0px 0px 8px rgba(0, 0, 0, 0.08);
+}
+
+.yearbook-group-header-add-button-text {
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+  white-space: nowrap;
+}
+
+.yearbook-group-header-container {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 21px 30px;
+}
+
+.yearbook-group-groups-add-long-button {
+  background-color: #737376;
+  border-radius: 6px;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 1px 0 #ebebeb, 0 3px 6px 0 #dbdbdb;
+  padding: 10px;
+  width: 100%;
+}
+
+.yearbook-group-groups-add-long-button::-moz-focus-inner {
+  border: 0;
+}
+
+.yearbook-group-groups-add-long-button:active {
+  background-color: #6f6f72;
+  box-shadow: 0 1px 1px 0 #ebebeb, 0 3px 6px 0 #dbdbdb,
+    inset 0px 0px 8px rgba(0, 0, 0, 0.08);
+}
+
+.yearbook-group-groups-add-long-button-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.yearbook-group-groups-add-long-button-text {
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16px;
+  white-space: nowrap;
+}
+
+.yearbook-group-groups-container {
+  padding: 0 30px 30px;
+}
+
+.yearbook-group-header-minimize-button {
+  background-color: #fafafc;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  padding: 10px 14px;
+}
+
+.yearbook-group-header-minimize-button::-moz-focus-inner {
+  border: 0;
+}
+
+.yearbook-group-header-minimize-button:active {
+  background-color: #f8f8fa;
+  box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.04);
+}
+
+.yearbook-group-header-minimize-button-container {
+  align-items: center;
+  display: flex;
+}
+
+.yearbook-group-header-minimize-button-text {
+  color: #000000;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  margin-left: 5px;
+}
+
+.yearbook-group-header-title-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.yearbook-group-header-title-text {
+  color: #000000;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+}
+
+.yearbook-group-upload-button {
+  margin-left: 25px;
+  background-color: #737376;
+  color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
+  box-shadow: 0 1px 1px 0 #ebebeb, 0 3px 6px 0 #dbdbdb;
+  padding: 10px 15px;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 16px;
+  cursor: pointer;
+}
+
+.yearbook-group-upload-button-disabled {
+  cursor: not-allowed;
+}
+
+.yearbook-group-uploading {
+  display: inline-block;
+  margin-left: 10px;
+}

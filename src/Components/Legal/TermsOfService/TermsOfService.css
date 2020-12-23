@@ -1,0 +1,37 @@
+.terms-of-service-wrapper {
+    background-color: #FAFAFC;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.terms-header {
+    background-color: #FAFAFC;
+    width: 100%;
+    height: 80px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+
+.terms-section {
+    display: flex;
+    justify-content: center;
+}
+
+.terms-article {
+    width: 95%;
+    padding: 30px 20px;
+    margin-top: 80px;
+}
+
+.terms-article > p {
+    margin-bottom: 20px;
+}
+
+.terms-article > h1 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="15px" viewBox="0 0 15 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>your account</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="nav/user_dropdown" transform="translate(-26.000000, -122.000000)" fill="#373737" fill-rule="nonzero">
+            <g id="Group-25">
+                <g id="Group-23" transform="translate(26.000000, 120.000000)">
+                    <g id="your-account" transform="translate(0.000000, 2.000000)">
+                        <path d="M7.5,7.5 C5.42893219,7.5 3.75,5.82106781 3.75,3.75 C3.75,1.67893219 5.42893219,0 7.5,0 C9.57106781,0 11.25,1.67893219 11.25,3.75 C11.25,5.82106781 9.57106781,7.5 7.5,7.5 Z M7.5,9.375 C10.003125,9.375 15,10.63125 15,13.125 L15,14.0625 C15,14.578125 14.578125,15 14.0625,15 L0.9375,15 C0.421875,15 0,14.578125 0,14.0625 L0,13.125 C0,10.63125 4.996875,9.375 7.5,9.375 Z" id="🔹Icon-Color"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

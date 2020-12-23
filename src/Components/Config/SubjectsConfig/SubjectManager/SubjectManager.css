@@ -1,0 +1,281 @@
+.subject-config-manager {
+  background-color: #fafafc;
+  border: 1px solid rgba(151, 151, 151, 0.1);
+  border-radius: 6px;
+  box-shadow: 0 -1px 1px 0 #ebebeb, 0 -3px 6px 0 #dbdbdb;
+}
+
+.subject-config-manager-container-text {
+  color: #737376;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  text-align: left;
+}
+
+.subject-config-manager-container {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.subject-manager-top-section {
+  background-color: #ecedf1;
+  border: 1px solid rgba(151, 151, 151, 0.1);
+  border-radius: 6px 6px 0 0;
+  box-shadow: 0 1px 1px 0 #ebebeb, 0 3px 6px 0 #dbdbdb;
+  padding: 10px;
+
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+.subject-config-manager-table-header-row {
+  background-color: #fafafc;
+  border: 1px solid #dbdbdb;
+  display: flex;
+
+  color: #818a9c;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17px;
+  text-align: left;
+}
+
+.subject-config-manager-checkbox-header-column {
+  padding: 10px;
+  border: 1px solid #dbdbdb;
+  flex: -1;
+}
+
+.subject-config-manager-subject-header-column {
+  padding: 10px;
+  border: 1px solid #dbdbdb;
+  flex: 1;
+}
+
+.subject-config-manager-teachers-header-column {
+  padding: 10px;
+  border: 1px solid #dbdbdb;
+  flex: 3;
+}
+
+.subject-config-manager-actions-header-column {
+  padding: 10px;
+  border: 1px solid #dbdbdb;
+  flex: -1;
+}
+
+/*
+ *
+ *
+ *
+ *
+ *
+ *
+*/
+
+.subject-config-manager-table {
+  background-color: #ecedf1;
+  border-collapse: collapse;
+  border-radius: 6px;
+}
+
+.subject-config-manager-table-buttons {
+  background: none;
+  border: 0;
+  padding: 0;
+}
+
+.subject-config-manager-table-buttons:active {
+  background-color: rgba(0, 0, 0, 0.02);
+  box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.1);
+}
+
+/*
+.subject-config-manager-table-buttons:hover {
+  transform: scale(1);
+}
+*/
+
+.subject-config-manager-table-head-bottom {
+  background-color: #fafafc;
+}
+
+.subject-config-manager-table-head-bottom-actions-cell {
+  border-top: 1px solid #dbdbdb;
+  width: 0.01%;
+}
+
+.subject-config-manager-table-head-bottom-actions-cell-text {
+  color: #737376;
+  font-family: Inter;
+  font-weight: 600;
+  line-height: 17px;
+  margin: auto 16px;
+  text-align: left;
+}
+
+.subject-config-manager-table-head-bottom-actions-cell-text-container {
+  display: flex;
+  justify-content: center;
+}
+
+.subject-config-manager-table-head-bottom-cell-text {
+  color: #737376;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17px;
+  text-align: left;
+}
+
+.subject-config-manager-table-head-bottom-checkbox-cell {
+  border-right: 1px solid #dbdbdb;
+  border-top: 1px solid #dbdbdb;
+  min-width: 40px;
+}
+
+.subject-config-manager-table-head-bottom-checkbox-cell-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.subject-config-manager-table-head-bottom-subject-cell {
+  border-right: 1px solid #dbdbdb;
+  border-top: 1px solid #dbdbdb;
+  padding: 20px;
+  text-align: left;
+}
+
+.subject-config-manager-table-head-bottom-teachers-cell {
+  border-right: 1px solid #dbdbdb;
+  border-top: 1px solid #dbdbdb;
+  padding: 20px;
+  text-align: left;
+}
+
+.subject-config-manager-table-head-top {
+  background-color: #ecedf1;
+  border-radius: 6px 6px 0 0;
+  height: 55px;
+}
+
+.subject-config-manager-table-head-top-remove-cell {
+  background-color: #ecedf1;
+  text-align: left;
+}
+
+.subject-config-manager-table-head-top-remove-cell-button {
+  height: 52px;
+}
+
+.subject-config-manager-table-head-top-remove-cell-text {
+  color: #737376;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  margin: 0 60px 0 18px;
+  text-align: left;
+}
+
+.subject-config-manager-table-head-top-search-cell {
+  background-color: #ecedf1;
+  border-right: 1px solid #dbdbdb;
+  padding: 10px;
+  width: 0.01%;
+}
+
+.subject-config-manager-table-rows-checkbox-cell {
+  border-right: 1px solid #dbdbdb;
+  border-top: 1px solid #dbdbdb;
+  background-color: #ffffff;
+  text-align: center;
+  width: 40px;
+}
+
+.subject-config-manager-table-rows-checkbox-cell-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.subject-config-manager-table-rows-remove-cell {
+  background-color: #ffffff;
+  border-top: 1px solid #dbdbdb;
+  text-align: center;
+}
+
+.subject-config-manager-table-rows-remove-cell-button {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 64px;
+  width: 100%;
+}
+
+.subject-config-manager-table-rows-remove-cell-text {
+  color: #737376;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  text-align: left;
+}
+
+.subject-config-manager-table-rows-row {
+}
+
+.subject-config-manager-table-rows-subject-cell {
+  background-color: #ffffff;
+  border-right: 1px solid #dbdbdb;
+  border-top: 1px solid #dbdbdb;
+  padding: 0 20px;
+}
+
+.subject-config-manager-table-rows-subject-cell-text {
+  color: #737376;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  text-align: left;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+.subject-config-manager-table-rows-teachers-cell {
+  background-color: #ffffff;
+  border-right: 1px solid #dbdbdb;
+  border-top: 1px solid #dbdbdb;
+}
+
+.subject-config-manager-table-rows-teachers-cell-button {
+  align-items: center;
+  display: flex;
+  height: 64px;
+  width: 100%;
+}
+
+.subject-config-manager-table-rows-teachers-cell-text {
+  color: #737376;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  margin: 0 18px;
+  text-align: left;
+}
+
+.subject-config-manager-table-wrapper {
+  border-radius: 6px;
+  box-shadow: 0 1px 1px 0 #ebebeb, 0 3px 6px 0 #dbdbdb;
+  display: block;
+  margin: 32px;
+  overflow: auto;
+}

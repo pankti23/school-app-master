@@ -1,0 +1,57 @@
+{
+  "main": {
+    "header": {
+      "title": "Grade System Configuration",
+      "paragraph": "The grade systems are used for student scores."
+    },
+    "add-system-button": "Add grading system"
+  },
+  "grade-system": {
+    "title": "Grade system weights",
+    "edit-dropdown": {
+      "rename": "Rename",
+      "delete": "Delete"
+    },
+    "save-button": "Save",
+    "table": {
+      "column": {
+        "grade": "GRADE",
+        "status": "STATUS"
+      },
+      "radio-button": {
+        "fail": "Fail",
+        "pass": "Pass"
+      },
+      "save-button": "Save"
+    },
+    "add-modal": {
+      "title": "Add a new grading system",
+      "input-text": "Grading system name",
+      "system": {
+        "title": "Select a grading system",
+        "radio-button": {
+          "number": "Number (0-10)",
+          "alphabet": "Alphabet (A, B, C, D, E)"
+        }
+      },
+      "button": {
+        "cancel": "Cancel",
+        "create": "Create"
+      }
+    },
+    "delete-modal": {
+      "title": "Are you sure you want to delete the grading system?",
+      "button": {
+        "cancel": "Cancel",
+        "confirm": "Confirm"
+      }
+    },
+    "edit-modal": {
+      "title": "Do you want to save the current changes to the grading system?",
+      "button": {
+        "cancel": "Cancel",
+        "confirm": "Confirm"
+      }
+    }
+  }
+}

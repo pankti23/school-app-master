@@ -1,0 +1,151 @@
+{
+  "main": {
+    "header": {
+      "title": "Configuración de la escuela",
+      "paragraph": "Configuración de la estructura de la organización."
+    },
+    "add-campus-button": "Añadir Plantel",
+    "add-campus-modal": {
+      "title": "Creando un nuevo Plantel",
+      "input-text": "Nombre del plantel",
+      "button": {
+        "cancel": "Cancelar",
+        "create": "Crear"
+      },
+      "message": {
+        "error": {
+          "400": "Error desconocido",
+          "409": "¡Ese nombre de Campus ya existe!",
+          "500": "¡Error de servidor! Favor de contactar al administrador.",
+          "unknown": "Error inesperado"
+        }
+      }
+    },
+    "button": {
+      "cancel": "Cancelar",
+      "confirm": "Confirmar",
+      "delete": "Eliminar",
+      "rename": "Renombrar"
+    },
+    "type": {
+      "campus": "plantel",
+      "level": "nivel",
+      "grade": "grado",
+      "group": "grupo"
+    },
+    "message": {
+      "error": {
+        "not-empty": "No se puede eliminar el Plantel. Asegurate que el Plantel no contiene información."
+      }
+    }
+  },
+  "campus": {
+    "add-level-button": "Añadir nivel a",
+    "add-level-modal": {
+      "title": "Añadir nivel a",
+      "input-text": "Nombre del nivel",
+      "button": {
+        "cancel": "Cancelar",
+        "create": "Crear"
+      },
+      "message": {
+        "error": {
+          "400": "Error desconocido",
+          "409": "¡Ese nombre de Nivel ya existe!",
+          "500": "¡Error de servidor! Favor de contactar al administrador.",
+          "unknown": "Error inesperado"
+        }
+      }
+    },
+    "button": {
+      "cancel": "Cancelar",
+      "confirm": "Confirmar",
+      "delete": "Eliminar",
+      "rename": "Renombrar"
+    },
+    "delete-confirmation": "¿Seguro deseas eliminar este",
+    "message": {
+      "error": {
+        "400": "Error desconocido",
+        "409": "¡Ese nombre de Campus ya existe!",
+        "500": "¡Error de servidor! Favor de contactar al administrador.",
+        "campus-not-empty": "No se puede eliminar el Plantel. Asegurate que el Plantel no contiene información.",
+        "campus-not-empty-2": "El Plantel no puede ser eliminado. Por favor elimina toda la información contenida en el Plantel antes de eliminarlo.",
+        "grade-not-empty": "El Grado no puede ser eliminado. Por favor elimina toda la información contenida en el Grado antes de eliminarlo.",
+        "grouping-not-empty": "El Grupo no puede ser eliminado. Por favor elimina toda la información contenida en el Grupo antes de eliminarlo.",
+        "level-not-empty": "No se puede eliminar el Nivel. Asegurate que el Nivel no contiene información.",
+        "level-not-empty-2": "El Nivel no puede ser eliminado. Por favor elimina toda la información contenida en el Nivel antes de eliminarlo.",
+        "level-structure-empty": "La estructura del Nivel está vacía",
+        "unknown": "Error inesperado"
+      }
+    }
+  },
+  "level": {
+    "add-grade-button": "Añadir grado a",
+    "add-grade-modal": {
+      "title": "Añadir grado a",
+      "input-text": "Nombre del grado",
+      "button": {
+        "cancel": "Cancelar",
+        "create": "Crear"
+      },
+      "message": {
+        "error": {
+          "400": "Error desconocido",
+          "409": "¡Ese nombre de Grado ya existe!",
+          "500": "¡Error de servidor! Favor de contactar al administrador.",
+          "unknown": "Error inesperado"
+        }
+      }
+    },
+    "message": {
+      "error": {
+        "grade-structure-empty": "La estructura del Grado está vacía",
+        "level-not-empty": "No se puede eliminar el Nivel. Asegurate que el Nivel no contiene información."
+      }
+    }
+  },
+  "grade": {
+    "add-group-button": "Añadir grupo a",
+    "add-group-modal": {
+      "title": "Añadir grupo a",
+      "input-text": "Nombre del grupo",
+      "button": {
+        "cancel": "Cancelar",
+        "create": "Crear"
+      },
+      "message": {
+        "error": {
+          "400": "Error desconocido",
+          "409": "¡Ese nombre de Grupo ya existe!",
+          "500": "¡Error de servidor! Favor de contactar al administrador.",
+          "unknown": "Error inesperado"
+        }
+      }
+    },
+    "message": {
+      "error": {
+        "grade-not-empty": "No se puede eliminar el Grado. Asegurate que el Grado no contiene información.",
+        "group-structure-empty": "La estructura del Grupo está vacía",
+        "level-not-empty": "No se puede eliminar el Nivel. Asegurate que el Nivel no contiene información."
+      }
+    }
+  },
+  "group": {
+    "members": {
+      "go-to": "Ir a",
+      "staff": "Personal administrativo",
+      "principals": ["Directores", "Directores"],
+      "teachers": ["Profesores", "Profesores"],
+      "main-teachers": ["Profesores titulares", "Profesores titulares"],
+      "subject-teachers": ["Profesores de materia", "Profesores de materia"],
+      "students": ["Alumnos", "Alumnos"],
+      "subjects": ["Materias", "Materias"]
+    },
+    "message": {
+      "error": {
+        "group-not-empty": "No se puede eliminar el Grupo. Asegurate que el Grupo no contiene información."
+      }
+    }
+  }
+}

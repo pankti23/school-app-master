@@ -1,0 +1,68 @@
+{
+  "main": {
+    "header": {
+      "title": "Extracurricular Configuration",
+      "paragraph": "This is where you can add and configure extracurricular programs for the school."
+    },
+    "message": {
+      "error": {
+        "api": "Error loading data."
+      }
+    }
+  },
+  "campus": {
+    "add-group-button": "Add an extracurricular group",
+    "add-modal": {
+      "title": "Add an extracurricular group to",
+      "input": "Extracurricular group name",
+      "button": {
+        "cancel": "Cancel",
+        "confirm": "Confirm"
+      },
+      "message": {
+        "error": {
+          "text": "Error adding group:",
+          "empty": "Group name cannot be empty",
+          "exists": "Group already exists!",
+          "api": "Request failed with status code"
+        }
+      }
+    }
+  },
+  "group": {
+    "message": {
+      "error": {
+        "empty": "Group name cannot be empty!",
+        "exists": "Error: Group name already exists!",
+        "api": "Request failed with status code"
+      }
+    },
+    "edit-dropdown": {
+      "rename": "Rename",
+      "delete": "Delete"
+    },
+    "delete-modal": {
+      "title": "Are you sure you want to delete this group?",
+      "button": {
+        "cancel": "Cancel",
+        "confirm": "Confirm"
+      },
+      "message": {
+        "error": {
+          "text": "Error deleting group:",
+          "exists": "Group still contains students and/or teachers!",
+          "api": "Request failed with status code"
+        }
+      }
+    },
+    "member": {
+      "type": {
+        "teachers": "Teachers",
+        "students": "Students",
+        "teachers-2": ["Teacher", "Teachers"],
+        "students-2": ["Student", "Students"]
+      },
+      "external": "Go to"
+    }
+  }
+}

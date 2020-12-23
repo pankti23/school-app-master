@@ -1,0 +1,235 @@
+.invite-new-modal-content-center {
+  padding: 25px 30px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #EBEBEB;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.invite-new-modal-content-center {
+  align-items: center;
+}
+
+.invite-new-loader-wrapper {
+  justify-content: center;
+    display: flex;
+    padding: 20px;
+}
+
+.invite-heading-wrapper {
+  padding: 20px 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.invite-heading-h1 {
+  font-size: 19px;
+  font-weight: bold;
+  color: #3e3e3e;
+}
+.invite-csv-download-template-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.invite-csv-download-template-wrapper > a {
+  font-size: 0.9rem;
+  color: #0037f6;
+  font-weight: 500;
+}
+
+.invite-csv-download-template-wrapper > a:hover {
+  text-decoration: underline;
+}
+
+.invite-csv-download-template-wrapper > a:active {
+  color: #9e0059;
+}
+
+.invite-upload-button {
+  background-color: #737376;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
+  box-shadow: 0 1px 1px 0 #ebebeb, 0 3px 6px 0 #dbdbdb;
+  color: #ffffff;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  cursor: pointer;
+}
+
+.invite-upload-button:hover {
+  background-color: #545457;
+}
+
+.invite-upload-button-wrapper {
+  padding: 25px 20px;
+}
+
+.invite-upload-button-label {
+  font-size: 15px;
+  color: #404040;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.invite-button-wrapper {
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.invite-back-button-wrapper {
+  cursor: pointer;
+  padding: 2px;
+  color: #404040;
+  font-weight: 600;
+}
+
+.invite-back-button {
+  font-size: 13px;
+}
+
+.invite-cancel-button {
+  background-color: #fafafc;
+  border: none;
+  border: 1px solid #dddddd;
+  padding: 10px 10px;
+  font-weight: 600;
+  font-size: 0.8rem;
+  border-radius: 3px;
+}
+
+.invite-cancel-button:hover {
+  background-color: rgb(235, 235, 235);
+}
+
+.invite-cancel-button:active {
+  background: #e5e5e5;
+  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+  -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+  box-shadow: inset 0px 0px 5px #c1c1c1;
+  outline: none;
+}
+
+.invite-submit-button {
+  background-color: #5cc26b;
+  color: #ffffff;
+  border: none;
+  border: 1px solid #dddddd;
+  padding: 10px 15px;
+  font-weight: 600;
+  font-size: 0.8rem;
+  margin-left: 10px;
+  border-radius: 3px;
+}
+
+.invite-submit-button:hover {
+  background-color: rgb(49, 196, 71);
+}
+
+.invite-submit-button:active {
+  background: rgb(37, 196, 60);
+  -webkit-box-shadow: inset 0px 0px 5px rgb(4, 66, 13);
+  -moz-box-shadow: inset 0px 0px 5px rgb(4, 66, 13);
+  box-shadow: inset 0px 0px 5px rgb(4, 66, 13);
+  outline: none;
+}
+
+.invite-submit-button:disabled {
+  background: #aee1b5;
+}
+
+.invite-csv-file-read-wrapper {
+  display: flex;
+  width: 100%;
+  background-color: #fafafc;
+  color: rgb(131, 131, 131);
+}
+
+.upload-square-icon {
+  padding: 10px;
+  border: 1.5px solid #f1eded;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px 0 0 5px;
+}
+
+.invite-file-name {
+  border-top: 1.5px solid #f1eded;
+  border-right: 1.5px solid #f1eded;
+  border-bottom: 1.5px solid #f1eded;
+  border-radius: 0 5px 5px 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 5px;
+}
+
+.invite-garbage-can-icon-wrapper {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
+}
+
+.invite-select-container {
+  max-height: calc(100vh - 323px);
+  overflow-y: auto;
+  padding: 10px 20px;
+}
+
+.invite-select-container > h2 {
+  font-weight: 600;
+  font-size: 17px;
+  color: #3e3e3e;
+}
+
+.invite-select-container > p {
+  font-size: 13px;
+  color: rgb(131, 131, 131);
+  margin-top: 3px;
+}
+
+.invite-select-wrapper {
+  font-weight: 500;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.invite-select-wrapper label {
+  font-size: 13px;
+}
+
+.invite-select-wrapper > select {
+  padding: 10px 20px;
+  border-radius: 3px;
+  border: 1.5px solid #f1eded;
+}
+
+.csv-upload-data {
+  padding: 25px 20px 0px 20px;
+}
+
+hr.csv-upload-data-hr {
+  margin: 0px 20px 10px 20px;
+    border-top: 1px solid #e6e6e6;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+
+/* .invite-file-upload {
+  background-color: #0037f6;
+} */

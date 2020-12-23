@@ -1,0 +1,118 @@
+{
+  "login": {
+    "title": "Ingresar para continuar",
+    "form": {
+      "title": "Registrate para continuar",
+      "input": {
+        "email": {
+          "label": "Correo electrónico",
+          "placeholder": "your@email.com"
+        },
+        "password": {
+          "label": "Contraseña",
+          "placeholder": "Contraseña"
+        },
+        "school-code": {
+          "label": "Código de Colegio",
+          "placeholder": "Selecciona una opción"
+        }
+      },
+      "sign-in-button": "Ingresar",
+      "terms": [
+        "Al registrarte estás aceptando la",
+        "Política de Privacidad de datos",
+        "y los",
+        "Términos y Condiciones Generales"
+      ],
+      "forgot-password": "¿Olvidaste tu contraseña?",
+      "message": {
+        "error": {
+          "invalid-credentials": "¡Datos de acceso inválidos!"
+        }
+      }
+    }
+  },
+  "forgot-password": {
+    "back-link": "Regresar",
+    "title": "¿Olvidaste tu contraseña?",
+    "form": {
+      "input": {
+        "school-code": {
+          "label": "Código de Colegio",
+          "placeholder": "Selecciona una opción"
+        },
+        "email": {
+          "label": "Contraseña",
+          "placeholder": "your@email.com"
+        }
+      },
+      "link-button": "Enviar liga",
+      "message": {
+        "error": {
+          "invalid-email-school-code": "¡Correo o Colegio incorrecto!",
+          "missing-email-school-code": "¡Correo y código de Colegio requeridos!"
+        },
+        "success": {
+          "email-sent": "¡El correo se enviará en breve!"
+        }
+      }
+    }
+  },
+  "reset-password": {
+    "title": "Reiniciar contraseña",
+    "form": {
+      "input": {
+        "password": {
+          "label": "Nueva contraseña",
+          "placeholder": "********"
+        },
+        "confirm-password": {
+          "label": "Confirma tu contraseña",
+          "placeholder": "********"
+        }
+      },
+      "reset-button": "Reiniciar contraseña",
+      "message": {
+        "error": {
+          "invalid-token": "¡Liga inválida o vencida!",
+          "missing-password": "¡Ingresa tu nueva contraseña 2 veces!",
+          "mismatched-passwords": "¡Las contraseñas no coinciden!"
+        }
+      }
+    }
+  },
+  "create-password": {
+    "title": "Crear contraseña",
+    "form": {
+      "input": {
+        "name": {
+          "label": "Nombre completo",
+          "placeholder": "Ingresa Nombre completo"
+        },
+        "password": {
+          "label": "Nueva contraseña",
+          "placeholder": "********"
+        },
+        "confirm-password": {
+          "label": "Confirma tu contraseña",
+          "placeholder": "********"
+        }
+      },
+      "login-button": "Ir a página de ingreso",
+      "message": {
+        "error": {
+          "invalid-token": "¡Liga inválida o vencida!",
+          "missing-password": "¡Ingresa tu nueva contraseña 2 veces!",
+          "mismatched-passwords": "¡Las contraseñas no coinciden!",
+          "mismatched-passwords-name": "¡Las contraseñas no coinciden o el nombre está vacío!"
+        }
+      }
+    }
+  },
+  "privacy-policy": {
+    "back-link": "Regresar"
+  },
+  "terms-and-conditions": {
+    "back-link": "Regresar"
+  }
+}

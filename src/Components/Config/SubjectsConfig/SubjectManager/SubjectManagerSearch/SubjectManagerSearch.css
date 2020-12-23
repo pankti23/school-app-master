@@ -1,0 +1,25 @@
+.subject-config-manager-search {
+  display: flex;
+}
+
+.subject-config-manager-input-field {
+  background-color: #ecedf1;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  margin-right: 28px;
+  text-align: left;
+  border: 0;
+}
+
+.subject-config-manager-input-field::placeholder {
+  color: #737376;
+  opacity: 1;
+}
+
+.subject-config-search-icon {
+  min-height: 16px;
+  margin: 0.5rem;
+  min-width: 16px;
+}

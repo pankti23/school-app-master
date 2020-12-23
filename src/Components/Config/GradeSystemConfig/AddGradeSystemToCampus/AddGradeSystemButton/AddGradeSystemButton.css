@@ -1,0 +1,33 @@
+.add-grade-system-button {
+
+  background-color: #5CC26B;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  box-shadow: 0 1px 1px 0 #EBEBEB, 0 3px 6px 0 #DBDBDB;
+  /* width: 230px; */
+  /* height: 35px; */
+  padding: 9px 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* margin-top: 40px; */
+}
+
+.add-grade-system-button:hover {
+  cursor: pointer;
+  background-color: rgb(105, 223, 123); 
+}
+
+
+
+.add-grade-system-button-text {
+  /* box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.25); */
+  color: #FFFFFF;
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: center; 
+}

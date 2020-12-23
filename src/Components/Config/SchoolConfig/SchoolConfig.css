@@ -1,0 +1,158 @@
+.config-school-container {
+  box-shadow: -1px 0 1px 0 #ebebeb, -1px 0 15px 0 #dbdbdb;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #ffffff;
+  border: 1px solid rgba(151, 151, 151, 0.1);
+  border-radius: 6px 0 0 6px;
+  box-shadow: -1px 0 1px 0 #ebebeb, -1px 0 15px 0 #dbdbdb;
+}
+
+.config-body-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.config-school-container-align {
+  margin: 40px;
+}
+
+.config-school-header {
+  color: #000000;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+}
+
+.config-school-paragraph {
+  color: #737376;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  text-align: left;
+  margin-top: 10px;
+}
+
+.config-header-container {
+  background-color: #fafafc;
+  border-radius: 6px 0 0;
+  box-shadow: 0 1px 0 0 #e2e2e2;
+  padding: 25px 40px;
+}
+
+.add-campus-modal-wrapper {
+  background-color: rgba(83, 107, 148, 0.664);
+  z-index: 1;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.exit-modal-button {
+  margin-left: 460px;
+  font-size: 2rem;
+  transform: rotate(45deg);
+}
+
+.exit-modal-button:hover {
+  cursor: pointer;
+  padding: 2px;
+}
+
+.exit-modal-button:active {
+  padding: 4px;
+}
+
+/* this is for the section headers */
+
+.config-section-header {
+  display: flex;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.config-header-spacing {
+  margin-right: 16px;
+}
+
+.config-campus,
+.config-level,
+.config-grade {
+  color: #000000;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  text-align: left;
+}
+
+.config-group {
+  color: #000000;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  text-align: left;
+}
+
+.dots:hover {
+  cursor: pointer;
+  padding: 2px;
+}
+
+.config-campus-container {
+  background-color: #fafafc;
+  border: 1px solid rgba(151, 151, 151, 0.1);
+  border-radius: 6px;
+  box-shadow: 0 -1px 1px 0 #ebebeb, 0 -3px 6px 0 #dbdbdb;
+  width: 100%;
+  margin-bottom: 30px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.config-campus-container-align {
+  margin: 15px 30px;
+}
+
+.addButton {
+  background-color: #737376;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  box-shadow: 0 1px 1px 0 #ebebeb, 0 3px 6px 0 #dbdbdb;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.addButton:hover {
+  cursor: pointer;
+  background-color: #626263;
+}
+
+.textContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.buttonText {
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 500;
+  margin-left: 5px;
+}

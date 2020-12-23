@@ -1,0 +1,28 @@
+{
+  "main": {
+    "header": {
+      "title": "Photos",
+      "paragraph": "These photos are visible to the parents of the students in their assigned group."
+    },
+    "message": {
+      "error": {
+        "api": "Error loading data."
+      }
+    }
+  },
+  "group": {
+    "upload-button": "Upload Photos",
+    "upload-indicator": "Uploading..."
+  },
+  "photos-list": {
+    "remove-selected": ["Remove", "Selected Photo", "Selected Photos"],
+    "table": {
+      "head": {
+        "photo-preview": "PHOTO PREVIEW",
+        "filename": "FILENAME (NOT VISIBLE TO PARENTS)",
+        "actions": "ACTIONS"
+      },
+      "remove-button": "Remove"
+    }
+  }
+}

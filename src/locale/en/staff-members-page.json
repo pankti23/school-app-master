@@ -1,0 +1,143 @@
+{
+  "main": {
+    "header": {
+      "title": "Staff Members",
+      "paragraph": "These are all of the members that are part of your organization. This includes administrative staff and teachers."
+    },
+    "invite-button": "Invite New"
+  },
+  "staff-table": {
+    "search-input": "Search for staff",
+    "button": {
+      "filter": "Filter",
+      "modify": "Modify"
+    },
+    "head": {
+      "name": "Name",
+      "role": "Role",
+      "campus": "Campus",
+      "level": "Level",
+      "grade": "Grade",
+      "group": "Group",
+      "after-school": "After School",
+      "last-active": "Last Active",
+      "actions": "Actions"
+    },
+    "body": {
+      "empty-placeholder": "(empty)",
+      "button": {
+        "more": "More",
+        "modify": "Modify",
+        "delete": "Delete",
+        "resend": "Resend"
+      },
+      "resend": {
+        "message": {
+          "error": {
+            "activated": "User is already activated!"
+          },
+          "success": {
+            "sent": "A new activation email has been sent."
+          }
+        }
+      }
+    },
+    "pagination": {
+      "entries": ["Showing", "of", "entries"],
+      "display": ["Display", "Per Page"],
+      "go-to-page": "Go to page",
+      "go": "Go"
+    }
+  },
+  "filter-modal": {
+    "title": "Filter Options",
+    "input": {
+      "role-filter": "Filter By Role",
+      "campus-filter": "Filter By Campus",
+      "level-filter": "Filter By Level",
+      "grade-filter": "Filter By Grade",
+      "group-filter": "Filter By Group",
+      "after-school-group-filter": "Filter By After School Group",
+      "placeholder": "Choose One"
+    },
+    "button": {
+      "reset": "Reset",
+      "cancel": "Cancel",
+      "apply": "Apply"
+    }
+  },
+  "modify-modal": {
+    "title": ["Modify", "Selection"],
+    "input": {
+      "role": "Role",
+      "campus": "Campus",
+      "level": "Level",
+      "grado": "Grade",
+      "group": "Group",
+      "after-school-group": "After School Group",
+      "placeholder": "Choose One"
+    },
+    "button": {
+      "cancel": "Cancel",
+      "confirm": "Confirm"
+    }
+  },
+  "delete-modal": {
+    "title": "Are you sure you want to delete staff members?",
+    "button": {
+      "cancel": "Cancel",
+      "confirm": "Confirm"
+    }
+  },
+  "invite-modal": {
+    "title": "How would you like to invite new staff to your organization?",
+    "button": {
+      "import-csv": "Import staff using a .CSV file",
+      "invite-email": "Invite staff by email",
+      "cancel": "Cancel"
+    },
+    "csv": {
+      "title": "Importing staff using .CSV file",
+      "template-download": "Download the staff invitation .CSV template",
+      "upload-csv": "Upload your .CSV file",
+      "button": {
+        "upload": "Select a file",
+        "back": "Back",
+        "cancel": "Cancel",
+        "create": "Create"
+      },
+      "import-columns": {
+        "header": {
+          "title": "Double-check the imported columns",
+          "paragraph": "Ensure these columns are assigned correctly, as imported staff cannot be reverted."
+        },
+        "label": {
+          "email": "\"Email Address\" column is:",
+          "name": "\"Staff Name\" column is:",
+          "role": "\"Role\" column is:",
+          "campus": "\"Campus\" column is:",
+          "level": "\"Level\" column is:",
+          "grade": "\"Grade\" column is:",
+          "group": "\"Group\" column is:",
+          "extracurricular": "\"Extracurricular\" column is:",
+          "placeholder": "Choose One"
+        }
+      }
+    },
+    "email": {
+      "title": "Invite staff by email",
+      "email-input": {
+        "title": "Staff Email Addresses",
+        "input": "Input the staff members’ email addresses, seperated by commas"
+      },
+      "assign-role": {
+        "title": "What role would you like to assign to these staff members?"
+      },
+      "button": {
+        "back": "Back",
+        "cancel": "Cancel",
+        "create": "Create"
+      }
+    }
+  }
+}

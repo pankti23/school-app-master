@@ -1,0 +1,80 @@
+{
+  "main": {
+    "header-title": "School Information",
+    "header-paragraph": "Information displayed to users of the mobile application.",
+    "message": {
+      "error": {
+        "api": "Error loading data."
+      }
+    }
+  },
+  "school": {
+    "header-title": "School Information",
+    "input": {
+      "name": "School Name",
+      "logo": {
+        "title": "School Logo",
+        "upload-button": {
+          "text": "Upload New Logo",
+          "message": {
+            "error": {
+              "type": "Error: File type must be PNG!",
+              "width": "Error: Image must be at least 500px in width!",
+              "height": "Error: Image must be at least 250px in height!",
+              "api": "Error: Request failed with status code"
+            }
+          }
+        },
+        "requirements": {
+          "title": "Image file requirements",
+          "file-type": "File type: .png",
+          "dimensions": "Minimum dimensions: 500px width by 250px height"
+        },
+        "palette": "Select color palette"
+      }
+    },
+    "save-button": {
+      "text": "Save",
+      "message": {
+        "error": {
+          "api": "Error: Request failed with status code"
+        },
+        "success": "School information saved!",
+        "info": {
+          "no-changes": "No changes made!"
+        }
+      }
+    }
+  },
+  "campus": {
+    "header-title": ["", "Information"],
+    "input": {
+      "campus": "Campus",
+      "address": "Address",
+      "website": "Website",
+      "phone": "Phone",
+      "email": "Email",
+      "social-media": {
+        "title": "Social Media Accounts",
+        "facebook": "Facebook",
+        "twitter": "Twitter",
+        "youtube": "YouTube",
+        "linkedin": "LinkedIn",
+        "instagram": "Instagram"
+      }
+    },
+    "save-button": {
+      "text": "Save",
+      "message": {
+        "error": {
+          "name-exists": "Campus name already exists!",
+          "api": "Error: Request failed with status code"
+        },
+        "success": "Campus information saved!",
+        "info": {
+          "no-changes": "No changes made!"
+        }
+      }
+    }
+  }
+}

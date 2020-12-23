@@ -1,0 +1,95 @@
+.calendar-month {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.calendar-month-header {
+  padding: 10px 0;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  display: flex;
+  flex-direction: row;
+}
+
+.month-name {
+  flex: 3;
+}
+
+.month-buttons {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.month-nav-button {
+  font-size: 16px;
+  cursor: pointer;
+  padding: 0 4px;
+}
+
+.day-labels {
+  color: #000000;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+}
+
+.day-label {
+  width: 14.2%;
+  padding: 2px;
+}
+
+.month-body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.month-row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 3px 0;
+}
+
+.month-date {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14px;
+  text-align: center;
+  color: #737376;
+  width: 14.2%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.today {
+  color: #FFFFFF;
+  background-color: #000000;
+  border-radius: 3px;
+  box-shadow: 0 1px 1px 0 #EBEBEB, 0 3px 6px 0 #DBDBDB;
+  opacity: 0.5;
+}
+
+.selected-date, .month-nav-button:hover, .month-date:hover, .today:hover {
+  background: #E2E2E2;
+  color: black;
+  border-radius: 3px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .calendar-month {
+    max-width: 50%;
+    min-width: 255px;
+  }
+}

@@ -1,0 +1,138 @@
+.ui-button {
+  border: 0;
+  background: none;
+  cursor: pointer;
+  border-radius: 3px;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 500;
+  height: 40px;
+  box-sizing: border-box;
+  font-family: Inter;
+  padding: 0 15px;
+  user-select: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+}
+
+.ui-button:focus {
+  outline: 0;
+}
+
+.ui-button svg,
+.ui-button img {
+  margin-right: 5px;
+}
+
+.ui-button.iconOnly svg,
+.ui-button.iconOnly img {
+  margin-right: 0;
+}
+
+.ui-button.fullWidth {
+  border-radius: 6px;
+}
+
+.ui-button:disabled,
+.ui-button.disabled {
+  cursor: default;
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+/* Sizes */
+.ui-button.small {
+  height: 26px;
+  min-height: 26px;
+  font-size: 12px;
+  line-height: 16px;
+  padding: 0 10px;
+}
+
+.ui-button.default {
+  height: 32px;
+  min-height: 32px;
+  font-size: 13px;
+  line-height: 17px;
+}
+
+.ui-button.medium {
+  height: 34px;
+  min-height: 34px;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.ui-button.large {
+  height: 46px;
+  min-height: 46px;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+/* Colors */
+.ui-button.green {
+  color: #FFFFFF;
+  background-color: #5CC26B;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 1px 0 #ebebeb, 0 3px 6px 0 #dbdbdb;
+}
+
+.ui-button.green:focus {
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25), 0 1px 1px 0 #ebebeb,
+    0 3px 6px 0 #dbdbdb;
+}
+
+.ui-button.green:hover {
+  background-color: #51be61;
+}
+
+.ui-button.green:active {
+  background-color: #4bbb5b;
+  box-shadow: 0 1px 1px 0 #ebebeb, 0 3px 6px 0 #dbdbdb,
+    inset 0px 0px 8px rgba(0, 0, 0, 0.04);
+}
+
+.ui-button.grey {
+  color: #FFFFFF;
+  background-color: #737376;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 1px 0 #ebebeb, 0 3px 6px 0 #dbdbdb;
+}
+
+.ui-button.grey:focus {
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25), 0 1px 1px 0 #ebebeb,
+    0 3px 6px 0 #dbdbdb;
+}
+
+.ui-button.grey:hover {
+  background-color: #6d6d70;
+}
+
+.ui-button.grey:active {
+  background-color: #69696c;
+  box-shadow: 0 1px 1px 0 #ebebeb, 0 3px 6px 0 #dbdbdb,
+    inset 0px 0px 8px rgba(0, 0, 0, 0.04);
+}
+
+.ui-button.white {
+  color: #000000;
+  background-color: #ffffff;
+  border: 1px solid #dbdbdb;
+}
+
+.ui-button.white:focus {
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+.ui-button.white:hover {
+  background-color: #fafafc;
+}
+
+.ui-button.white:active {
+  background-color: #f3f3f8;
+  box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.04);
+}

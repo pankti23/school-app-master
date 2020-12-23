@@ -1,0 +1,134 @@
+.calendar-week {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.week-header {
+    padding: 10px 0 20px 0;
+    color: #363636;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.week-name {
+    flex: 3;
+    padding-left: 20px;
+}
+
+.week-buttons {
+    flex: 0.65;
+    display: flex;
+    justify-content: space-between;
+    max-width: 50px;
+}
+
+.week-nav-button {
+    font-size: 16px;
+    cursor: pointer;
+    padding: 0 4px;
+}
+
+.week-body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.week-labels-row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 5px;
+}
+
+.week-cell {
+    max-width: 13.7%;
+    min-width: 13.7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.week-day-name {
+    color: #ABABAB;;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 12px;
+    padding: 2px 0;
+}
+
+.week-day {
+    color: #363636;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+}
+
+.week-data-row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 5px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.week-sidebar {
+    max-width: 6%;
+    padding-top: 15px;
+    min-width: 60px;
+}
+
+.time-of-day {
+    color: #737376;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 12px;
+    text-align: left;
+    padding-right: 5px;
+}
+
+.week-data {
+    padding: 5px 0;
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.item-data {
+    margin-top: 5px;
+    max-width: 90%;
+    min-width: 90%;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    color: white;
+    padding: 10px 5px;
+    text-align: left;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    box-shadow: 3px 3px #EBEBEB;
+    cursor: pointer;
+}
+
+.empty-data {
+    margin-top: 5px;
+    max-width: 90%;
+    min-width: 90%;
+    min-height: 55px;
+}
+
+.week-nav-button:hover, .week-date:hover, .today:hover {
+    background: #E2E2E2;
+    color: black;
+}
+
+@media only screen and (max-width: 1000px) {
+}

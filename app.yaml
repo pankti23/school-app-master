@@ -1,0 +1,17 @@
+runtime: nodejs12
+env: standard
+entrypoint: npm run build
+manual_scaling:
+  instances: 1
+resources:
+  cpu: 1
+handlers:
+- url: /(.*\..+)$
+  static_files: build/\1
+  upload: build/(.*\..+)$
+- url: /.*
+  static_files: build/index.html
+  upload: build/index.html
+
+env_variables:
+  REACT_APP_BASE_URL: https://api-dot-schoolapp-prodik.appspot.com/api

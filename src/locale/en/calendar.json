@@ -1,0 +1,92 @@
+{
+  "sidebar": {
+    "add-button": "Add item to this calendar",
+    "visibility": {
+      "title": "Display items visible to"
+    },
+    "filter-label": "Display calendar items"
+  },
+  "calendar": {
+    "value": {
+      "day-names-full": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "day-names-short": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
+      "day-names-chars": ["S", "M", "T", "W", "T", "F", "S"]
+    },
+    "item-modal": {
+      "title": {
+        "update": "Update Calendar Item",
+        "create": "Create a new Calendar Item"
+      },
+      "input": {
+        "item-type": "Item Type:",
+        "subject": "Title:",
+        "location": "Location:",
+        "schedule": {
+          "label": "When is this calendar item scheduled?",
+          "until": "until",
+          "checkbox": {
+            "all-day": "All Day",
+            "repeat": "Repeats"
+          },
+          "repeat": {
+            "label": "Repeats every:",
+            "option": {
+              "none": "None",
+              "day": "Day",
+              "week": "Week",
+              "month": "Month",
+              "year": "Year"
+            },
+            "repetition-end": "Repetition Ends"
+          }
+        },
+        "description": "Description:",
+        "attach": {
+          "label": "Attach files to this calendar item:",
+          "button": "Select files to attach"
+        }
+      },
+      "visibility": {
+        "title": "Who can see this item?"
+      },
+      "button": {
+        "cancel": "Cancel",
+        "save": "Save",
+        "saving": "Saving..."
+      },
+      "change-repeat": "You are changing a repeating event!"
+    },
+    "view-modal": {
+      "rectangle": {
+        "calendar-item": "Calendar Item",
+        "visible": {
+          "label": "Visible To:",
+          "all": "All of"
+        },
+        "date-time": "Date/Time",
+        "location": "Location"
+      },
+      "description": "Description",
+      "attachment": {
+        "label": "Attachments",
+        "none": "No Attachments"
+      },
+      "students": "Students",
+      "creator": "Creator",
+      "delete-confirmation": "Are you sure you want to delete this item?",
+      "button": {
+        "cancel": "Cancel",
+        "delete": "Delete",
+        "edit": "Edit"
+      }
+    }
+  }
+}

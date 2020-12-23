@@ -1,0 +1,64 @@
+.subject-modal-row-wrapper {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 16px 0;
+}
+
+.subject-modal-row-wrapper:first-child {
+  margin: 0 0 16px;
+}
+
+.subject-modal-row-wrapper:last-child {
+  margin: 16px 0 8px;
+}
+
+.subject-modal-row-text {
+  color: #000000;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  margin-left: 10px;
+  overflow-wrap: break-word;
+  text-align: left;
+  width: 354px;
+  word-wrap: break-word;
+}
+
+.subject-modal-row-text-unchecked {
+  color: #737376;
+}
+
+.subject-modal-row-custom-text {
+  color: #ababab;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  text-align: left;
+}
+
+.subject-modal-row-check-box-text {
+  align-items: center;
+  display: flex;
+}
+
+.subject-modal-row-check-box-text:hover {
+  background-color: rgba(226, 219, 219, 0.5);
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.subject-modal-row-trash-container {
+  padding: 0 8px;
+}
+
+.subject-modal-row-trash-icon {
+  opacity: 0.25;
+}
+
+.subject-modal-row-trash-icon:hover {
+  opacity: 1;
+  cursor: pointer;
+}

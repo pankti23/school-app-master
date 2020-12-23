@@ -1,0 +1,5 @@
+dispatch:
+  - url: "admin.school-app.com.mx/*"
+    service: default
+  - url: "team.school-app.com.mx/*"
+    service: team

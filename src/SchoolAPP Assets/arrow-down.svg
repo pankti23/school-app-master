@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="6px" height="5px" viewBox="0 0 6 5" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>arrow-down</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Admin" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Invite-New-Students-CSV-Step-2" transform="translate(-509.000000, -362.000000)" fill-rule="nonzero">
+            <g id="Group-22" transform="translate(52.000000, 62.000000)">
+                <g id="Group-25" transform="translate(30.000000, 284.000000)">
+                    <g id="Group-2">
+                        <g id="Group-14" transform="translate(250.000000, 0.000000)">
+                            <g id="arrow-down" transform="translate(174.000000, 12.000000)">
+                                <polygon id="Rectangle" fill="#000000" opacity="0" transform="translate(6.000000, 6.000000) rotate(-90.000000) translate(-6.000000, -6.000000) " points="8.52651283e-14 -3.6739404e-16 12 -3.6739404e-16 12 12 8.52651283e-14 12"></polygon>
+                                <path d="M6,8.5 C5.74150599,8.49869644 5.49730897,8.3811881 5.335,8.18 L3.23,5.63 C2.97903924,5.3167844 2.92858308,4.88790709 3.1,4.525 C3.23916458,4.20928107 3.54999407,4.00401632 3.895,4 L8.105,4 C8.45000593,4.00401632 8.76083542,4.20928107 8.9,4.525 C9.07141692,4.88790709 9.02096076,5.3167844 8.77,5.63 L6.665,8.18 C6.50269103,8.3811881 6.25849401,8.49869644 6,8.5 Z" id="Path" fill="#373737"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

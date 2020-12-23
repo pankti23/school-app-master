@@ -1,0 +1,32 @@
+{
+  "main": {
+    "header": {
+      "title": "Fotos",
+      "paragraph": "Estas fotos serán visibles para los padres de familia de acuerdo al grupo y grado de sus hijos."
+    },
+    "message": {
+      "error": {
+        "api": "Error al cargar información."
+      }
+    }
+  },
+  "group": {
+    "upload-button": "Cargar fotos al anuario",
+    "upload-indicator": "Cargando..."
+  },
+  "photos-list": {
+    "remove-selected": [
+      "Eliminar",
+      "imágenes seleccionadas",
+      "imágenes seleccionadas"
+    ],
+    "table": {
+      "head": {
+        "photo-preview": "Muestra de la imagen",
+        "filename": "Nombre del archivo (No visible en la aplicación)",
+        "actions": "Acciones"
+      },
+      "remove-button": "Eliminar"
+    }
+  }
+}

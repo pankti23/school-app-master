@@ -1,0 +1,7 @@
+{
+    "error": {
+        "common": "You have logged in successfully, but the admin has not yet assigned you in the structure",
+        "parent": "Dear parent: You have logged in successfully, but the admin has not yet assigned you in the structure."
+    }
+}
+  

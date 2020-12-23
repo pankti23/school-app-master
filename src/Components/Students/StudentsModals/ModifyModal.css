@@ -1,0 +1,116 @@
+.modify-student-modal-wrapper {
+  background-color: rgba(4, 49, 126, 0.664);
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  z-index: 4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100vw;
+}
+
+.modify-student-modal-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #FFFFFF;
+  border: 5px solid rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.25);
+  width: 100%;
+  max-width: 60%;
+  min-width: 400px;
+  max-width: 500px;
+}
+
+.modify-student-modal-header {
+  padding: 25px 30px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #EBEBEB;
+  text-align: left;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modify-student-modal-header p {
+  color: #373737;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.modify-student-modal-content {
+  padding: 25px 30px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #EBEBEB;
+  width: 100%;
+  box-sizing: border-box;
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+.modify-student-modal-bottom {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 15px 30px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.modify-student-modal-user {
+  padding: 0 0 30px 0;
+  margin: 0 0 30px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.modify-student-modal-user:not(:last-child) {
+  border-bottom: 1px solid #EBEBEB;
+}
+
+.modify-student-modal-user li {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.modify-student-modal-user li:not(:first-child) {
+  margin: 10px 0 0 0;
+}
+
+.modify-student-modal-user li label {
+  margin: 0;
+  padding: 0 0 2px 0;
+}
+
+.modify-student-modal-user li input {
+  width: 100%;
+  background-color: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+  height: 32px;
+  min-height: 32px;
+  font-size: 13px;
+  line-height: 17px;
+  padding: 0 10px 0 10px;
+}
+
+.modify-student-modal-warning-message {
+  color: red;
+  font-size: 12px;
+}

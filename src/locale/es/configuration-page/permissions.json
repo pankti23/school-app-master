@@ -1,0 +1,56 @@
+{
+  "main": {
+    "header": {
+      "title": "Permisos",
+      "paragraph": "Configuración de permisos para cada rol."
+    }
+  },
+  "role": {
+    "administrative-permissions": "Permisos administrativos",
+    "permission-type": {
+      "calendar": "Calendario",
+      "communication": "Comunicación",
+      "configuration": "Configuración",
+      "other": "Otro",
+      "school-staff": "Personal escolar",
+      "students": "Alumnos"
+    },
+    "permissions": {
+      "After School Group Students": "Grupo Extraescolar Alumnos",
+      "After School Group Teachers": "Grupo Extraescolar Profesores",
+      "After School Groups": "Grupo Extraescolar",
+      "Campuses": "Plantel",
+      "Grades": "Grado",
+      "Grading Systems": "Sistema de calificación",
+      "Groups": "Grupo",
+      "Levels": "Nivel",
+      "Permissions": "Permisos",
+      "School Info": "Información del Colegio",
+      "Subjects": "Materias",
+      "Users": "Personal Escolar",
+      "Yearbook": "Fotos",
+      "Students": "Alumnos",
+      "Subject Scores": "Calificaciones",
+      "Group Subject Teachers": "Grupo Profesores de materia",
+      "Subject Teachers": "Profesores de materia",
+      "Calendar Items": "Objetos del calendario",
+      "Campus Chat Rooms": "Mensajes del plantel",
+      "Grade Chat Rooms": "Mensajes del grado",
+      "Groups Chat Rooms": "Mensajes del grupo",
+      "Level Chat Rooms": "Mensajes del nivel"
+    },
+    "group": {
+      "button": {
+        "disable-all": "Deshabilitar todo",
+        "read-all": "Leer todo",
+        "write-all": "Escribir todo",
+        "save": "Guardar"
+      },
+      "message": {
+        "error": {
+          "api": "Error al cargar información."
+        }
+      }
+    }
+  }
+}

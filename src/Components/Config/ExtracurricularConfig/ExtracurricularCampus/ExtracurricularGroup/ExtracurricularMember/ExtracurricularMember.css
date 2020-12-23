@@ -1,0 +1,48 @@
+.extracurricular-campus-group-member-button {
+  background-color: #ffffff;
+  border-radius: 6px;
+  border: 1px solid rgba(151, 151, 151, 0.1);
+  box-shadow: 0 1px 1px 0 #ebebeb, 0 3px 6px 0 #dbdbdb;
+  padding: 0;
+  width: 100%;
+}
+
+.extracurricular-campus-group-member-button-container {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  height: 40px;
+  justify-content: space-between;
+  padding: 0 12px;
+}
+
+.extracurricular-campus-group-member-container {
+}
+
+.extracurricular-campus-group-member-left-container {
+  align-items: center;
+  display: flex;
+}
+
+.extracurricular-campus-group-member-left-text {
+  color: #000000;
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 16px;
+  margin-left: 8px;
+}
+
+.extracurricular-campus-group-member-right-container {
+  align-items: center;
+  display: flex;
+}
+
+.extracurricular-campus-group-member-right-text {
+  color: #0037f6;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14px;
+  margin-right: 8px;
+}

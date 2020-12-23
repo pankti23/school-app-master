@@ -1,0 +1,25 @@
+.subject-config-manage-subjects-button {
+  height: 36px;
+  width: 138px;
+}
+
+.subject-config-manage-subjects-container {
+  align-content: center;
+  align-items: center;
+  background-color: #737376;
+  border-radius: 3px;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 1px 0 #ebebeb, 0 3px 6px 0 #dbdbdb;
+  display: flex;
+  justify-content: center;
+}
+
+.subject-config-manage-button-text {
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: center;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+}

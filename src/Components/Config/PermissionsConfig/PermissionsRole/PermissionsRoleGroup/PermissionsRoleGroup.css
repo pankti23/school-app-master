@@ -1,0 +1,165 @@
+.permissions-role-group-body-container {
+}
+
+.permissions-role-group-body-content-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.permissions-role-group-body-content-cell-container {
+  align-items: center;
+  border-bottom: 1px solid #dbdbdb;
+  display: flex;
+  flex-basis: 50%;
+  padding: 15px 20px;
+}
+
+.permissions-role-group-body-content-cell-container:last-child {
+  border-bottom: 0;
+}
+
+.permissions-role-group-body-content-cell-container:nth-child(odd) {
+  border-right: 1px solid #dbdbdb;
+}
+
+.permissions-role-group-body-content-cell-container:nth-last-child(2) {
+  border-bottom: 0;
+}
+
+.permissions-role-group-body-content-cell-status-button {
+  background-color: #ffffff;
+  border-radius: 4px;
+  border: 1px solid rgba(151, 151, 151, 0.1);
+  box-shadow: 0 1px 1px 0 #ebebeb, 0 3px 6px 0 #dbdbdb;
+  display: flex;
+  justify-content: center;
+  margin-right: 15px;
+  padding: 1px;
+  width: 42px;
+}
+
+.permissions-role-group-body-content-cell-status-button:focus {
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25), 0 1px 1px 0 #ebebeb,
+    0 3px 6px 0 #dbdbdb;
+}
+
+.permissions-role-group-body-content-cell-status-button:active {
+  filter: brightness(99.5%);
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25),
+    inset 0px 0px 8px rgba(0, 0, 0, 0.04), 0 1px 1px 0 #ebebeb,
+    0 3px 6px 0 #dbdbdb;
+}
+
+.permissions-role-group-body-content-cell-status-container {
+}
+
+.permissions-role-group-body-content-cell-status-disabled {
+  align-items: center;
+  background-color: #dd0000;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+}
+
+.permissions-role-group-body-content-cell-text {
+  color: #737376;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.permissions-role-group-body-content-cell-text-container {
+  color: #737376;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.permissions-role-group-body-title-container {
+  background-color: #fafafc;
+  border-bottom: 1px solid #dbdbdb;
+  border-top: 1px solid #dbdbdb;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.permissions-role-group-body-title-text {
+  color: #737376;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 14px;
+}
+
+.permissions-role-group-container {
+  background-color: #ffffff;
+  border: 1px solid rgba(151, 151, 151, 0.1);
+  border-radius: 6px;
+  box-shadow: 0 1px 1px 0 #ebebeb, 0 3px 6px 0 #dbdbdb;
+}
+
+.permissions-role-group-header-container {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.permissions-role-group-header-left-container {
+  margin: 14px 8px 14px 20px;
+}
+
+.permissions-role-group-header-left-text {
+  color: #737376;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+}
+
+.permissions-role-group-header-right-button {
+  background-color: #ffffff;
+  border: 0;
+  height: 47px;
+  margin-right: 2px;
+  padding: 0 14px;
+}
+
+.permissions-role-group-header-right-button:focus {
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+.permissions-role-group-header-right-button:active {
+  filter: brightness(99%);
+  box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.04);
+}
+
+.permissions-role-group-header-right-button-text {
+  color: #737376;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.permissions-role-group-header-right-container {
+  margin-left: 6px;
+}
+
+@media (max-width: 900px) {
+  .permissions-role-group-body-content-cell-container {
+    flex-basis: 100%;
+  }
+
+  .permissions-role-group-body-content-cell-container:nth-child(odd) {
+    border-right: 0;
+  }
+
+  .permissions-role-group-body-content-cell-container:nth-last-child(2) {
+    border-bottom: 1px solid #dbdbdb;
+  }
+}

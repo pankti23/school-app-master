@@ -1,0 +1,66 @@
+{
+  "name": "start-of-prodik",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@popperjs/core": "^2.4.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.4.0",
+    "@testing-library/user-event": "^7.2.1",
+    "axios": "^0.19.2",
+    "babel-polyfill": "^6.26.0",
+    "bootstrap": "^3.3.5",
+    "core-js": "^3.6.5",
+    "dompurify": "^2.0.15",
+    "formik": "^2.1.4",
+    "jquery": "^3.5.0",
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0",
+    "prop-types": "^15.7.2",
+    "query-string": "^6.12.1",
+    "rc-time-picker": "^3.7.3",
+    "react": "^16.12.0",
+    "react-app-polyfill": "^1.0.6",
+    "react-csv-reader": "^3.0.5",
+    "react-date-picker": "^8.0.1",
+    "react-dom": "^16.12.0",
+    "react-easy-crop": "^3.0.1",
+    "react-icons": "^3.9.0",
+    "react-js-pagination": "^3.0.3",
+    "react-multi-email": "^0.5.3",
+    "react-papaparse": "^3.1.2",
+    "react-responsive-modal": "^4.0.1",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.0",
+    "react-table": "7.1.0",
+    "react-table-container": "^2.0.3",
+    "yup": "^0.28.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all",
+      "ie >= 9"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version",
+      "ie >= 9"
+    ]
+  },
+  "engines": {
+    "node": "12.x.x",
+    "npm": "6.14.x"
+  }
+}

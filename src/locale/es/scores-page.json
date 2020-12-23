@@ -1,0 +1,35 @@
+{
+  "main": {
+    "header-title": "Calificaciones",
+    "header-paragraph": "Estas son las calificaciones para los alumnos en la organización.",
+    "message": {
+      "error": {
+        "api": "Error al cargar información."
+      }
+    }
+  },
+  "campus": {
+    "due-date": [
+      "La siguiente fecha para publicar calificaciones para todos",
+      "es:"
+    ],
+    "message": {
+      "error": {
+        "api": "Error al cargar información."
+      }
+    }
+  },
+  "group-table": {
+    "search-placeholder": "Buscar alumnos",
+    "student-name": "Nombre del alumno",
+    "save-button": "Guardar",
+    "save-all-button": "Guardar todo",
+    "message": {
+      "error": {
+        "locked": "Error: ¡Las calificaciones están bloqueadas!",
+        "api": "Error: Solicitud fallida. Código de error:"
+      },
+      "success": "¡Información de calificaciones guardada!"
+    }
+  }
+}

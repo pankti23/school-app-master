@@ -1,0 +1,21 @@
+.subject-config-manager-header {
+  padding: 15px 30px;
+  border-bottom: 1px solid #dbdbdb;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+.subject-config-manager-text {
+  color: #818a9c;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.black-text {
+  color: black;
+}

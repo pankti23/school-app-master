@@ -1,0 +1,30 @@
+{
+  "main": {
+    "links": {
+      "calendar": "Calendario",
+      "staff": "Personal escolar",
+      "students": "Alumnos",
+      "configuration": "Config",
+      "mobile": "Móvil"
+    },
+    "button": {
+      "settings": "Adjustes",
+      "logout": "Salir"
+    },
+    "modal": {
+      "success": "El usuario se ha guardado con éxito"
+    }
+  },
+  "profile-modal": {
+    "title": "Tu Perfil",
+    "input": {
+      "full-name": "Nombre completo",
+      "email": "Correo electrónico"
+    },
+    "button": {
+      "file-select": "Seleccionar archivo",
+      "cancel": "Cancelar",
+      "save": "Guardar"
+    }
+  }
+}

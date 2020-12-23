@@ -1,0 +1,199 @@
+.manage-subjects-modal-container {
+  background-color: #ffffff;
+  border-radius: 6px;
+  box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.25),
+    0px 0px 0px 5px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  width: 480px;
+}
+
+.manage-subjects-modal-header {
+  padding: 30px;
+}
+
+.manage-subjects-modal-header-text {
+  color: #363636;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  text-align: left;
+}
+
+.add-custom-subject-text {
+  color: #000000;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.create-custom-subject-container {
+  background-color: #fafafc;
+  border-bottom: 1px solid #ebebeb;
+  box-shadow: 0 -1px 0 0 #ebebeb;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 30px;
+}
+
+.manage-custom-subject-modal-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.manage-subject-modal-search {
+  align-content: center;
+  background-color: #ffffff;
+  border-radius: 2px;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  display: flex;
+  height: 37px;
+  padding: 5px 10px;
+}
+
+.manage-subject-modal-search-field {
+  border: 0;
+  color: #000000;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  width: 160px;
+}
+
+.manage-subject-modal-search-field::placeholder {
+  color: #ababab;
+}
+
+.add-custom-subject-button {
+  align-items: center;
+  background-color: #737376;
+  border-radius: 3px;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 1px 0 #ebebeb, 0 3px 6px 0 #dbdbdb;
+  display: flex;
+  height: 35px;
+  justify-content: center;
+  padding: 10px;
+}
+
+.add-custom-subject-button:active {
+  background-color: #6f6f72;
+  box-shadow: 0 1px 1px 0 #ebebeb, 0 3px 6px 0 #dbdbdb,
+    inset 0px 0px 8px rgba(0, 0, 0, 0.08);
+}
+
+.add-custom-subject-button-text {
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 16px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+  white-space: nowrap;
+}
+
+.search-subject-library-container {
+  padding: 15px 30px 0 30px;
+}
+
+.subject-library-search-bar {
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+  display: flex;
+}
+
+.subject-library-input-field {
+  border: 0;
+  color: #000000;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  width: 100%;
+  text-align: left;
+}
+
+.subject-library-input-field::placeholder {
+  color: #ababab;
+}
+
+.manage-subject-modal-save-container {
+  border-top: 1px solid #ebebeb;
+  margin-top: 25px;
+  padding: 20px 30px;
+
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.manage-subject-modal-save-button {
+  background-color: #5cc26b;
+  border-radius: 3px;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 1px 0 #ebebeb, 0 3px 6px 0 #dbdbdb;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.25);
+  height: 35px;
+  margin-left: 10px;
+  width: 61px;
+}
+
+.manage-subject-modal-save-button-text {
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 600;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+}
+
+.manage-subject-modal-save-button:active {
+  background-color: #58be68;
+  box-shadow: 0 1px 1px 0 #ebebeb, 0 3px 6px 0 #dbdbdb,
+    inset 0px 0px 8px rgba(0, 0, 0, 0.08);
+}
+
+.manage-subject-modal-cancel-button {
+  background-color: #fafafc;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  width: 70px;
+  height: 35px;
+}
+
+.manage-subject-modal-cancel-button-text {
+  color: #000000;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 14px;
+}
+
+.manage-subject-modal-cancel-button:active {
+  background-color: #f8f8fa;
+  box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.04);
+}
+
+.subject-modal-row-container {
+  height: 280px;
+  margin-top: 16px;
+  overflow: auto;
+}
+
+.custom-subject-error-container {
+  margin-top: 10px;
+}
+
+.custom-subject-error-message {
+  color: #ff0000;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+}

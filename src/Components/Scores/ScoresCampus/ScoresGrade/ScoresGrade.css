@@ -1,0 +1,46 @@
+.scores-grade-container {
+  background-color: #ffffff;
+  border-radius: 6px;
+  border: 1px solid rgba(151, 151, 151, 0.1);
+  box-shadow: 0 1px 1px 0 #ebebeb, 0 3px 6px 0 #dbdbdb;
+  display: flex;
+  flex-direction: column;
+  padding: 16px 30px;
+}
+
+.scores-grade-content-container {
+}
+
+.scores-grade-content-group-container {
+}
+
+.scores-grade-content-group-container:first-child {
+  margin-top: 20px;
+}
+
+.scores-grade-content-group-divider {
+  background-color: #ebebeb;
+  height: 1px;
+  margin: 30px 0;
+}
+
+.scores-grade-header-container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.scores-grade-header-left-container {
+  margin-right: 24px;
+}
+
+.scores-grade-header-left-text {
+  color: #000000;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21px;
+}
+
+.scores-grade-header-right-container {
+}

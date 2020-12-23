@@ -1,0 +1,143 @@
+{
+  "main": {
+    "header": {
+      "title": "Personal escolar",
+      "paragraph": "Estos son todos los miembros que pertenecen a tu organización. Incluye personal escolar y profesores"
+    },
+    "invite-button": "Invitar nuevo"
+  },
+  "staff-table": {
+    "search-input": "Buscar personal",
+    "button": {
+      "filter": "Filtrar",
+      "modify": "Modificar"
+    },
+    "head": {
+      "name": "Nombre",
+      "role": "Rol",
+      "campus": "Plantel",
+      "level": "Nivel",
+      "grade": "Grado",
+      "group": "Grupo",
+      "after-school": "Extraescolar",
+      "last-active": "Última actividad",
+      "actions": "Acciones"
+    },
+    "body": {
+      "empty-placeholder": "(Vacío)",
+      "button": {
+        "more": "Más",
+        "modify": "Modificar",
+        "delete": "Eliminar",
+        "resend": "Resend"
+      },
+      "resend": {
+        "message": {
+          "error": {
+            "activated": "El usuario ya está activo"
+          },
+          "success": {
+            "sent": "Un nuevo correo de activación ha sido enviado"
+          }
+        }
+      }
+    },
+    "pagination": {
+      "entries": ["Mostrando", "de", "registros"],
+      "display": ["Mostrar", "Por página"],
+      "go-to-page": "Ir a la página",
+      "go": "Ir"
+    }
+  },
+  "filter-modal": {
+    "title": "Opciones de filtrado",
+    "input": {
+      "role-filter": "Filtrar por Rol",
+      "campus-filter": "Filtrar por Plantel",
+      "level-filter": "Filtrar por Nivel",
+      "grade-filter": "Filtrar por Grado",
+      "group-filter": "Filtrar por Grupo",
+      "after-school-group-filter": "Filtrar por Grupo Extraescolar",
+      "placeholder": "Selecciona uno"
+    },
+    "button": {
+      "reset": "Reiniciar",
+      "cancel": "Cancelar",
+      "apply": "Aplicar"
+    }
+  },
+  "modify-modal": {
+    "title": ["Modificar", "Selection"],
+    "input": {
+      "role": "Rol",
+      "campus": "Plantel",
+      "level": "Nivel",
+      "grado": "Grado",
+      "group": "Grupo",
+      "after-school-group": "Extraescolar",
+      "placeholder": "Choose One"
+    },
+    "button": {
+      "cancel": "Cancelar",
+      "confirm": "Confirmar"
+    }
+  },
+  "delete-modal": {
+    "title": "¿Seguro que deseas eliminar estos miembros del Staff?",
+    "button": {
+      "cancel": "Cancelar",
+      "confirm": "Confirmar"
+    }
+  },
+  "invite-modal": {
+    "title": "Selecciona un método para invitar personal:",
+    "button": {
+      "import-csv": "Invitar mediante un archivo .csv",
+      "invite-email": "Invitar mediante correo electrónico",
+      "cancel": "Cancelar"
+    },
+    "csv": {
+      "title": "Invitar mediante un archivo .csv",
+      "template-download": "Bajar plantilla de carga para personal",
+      "upload-csv": "Cargar archivo .csv",
+      "button": {
+        "upload": "Seleccionar archivo",
+        "back": "Regresar",
+        "cancel": "Cancelar",
+        "create": "Crear"
+      },
+      "import-columns": {
+        "header": {
+          "title": "Validar columnas a importar",
+          "paragraph": "Asegúrate de que la asignación es correcta. Esta acción no se puede deshacer."
+        },
+        "label": {
+          "email": "\"Correo electrónico\" comuna es:",
+          "name": "\"Personal escolar\" comuna es:",
+          "role": "\"Rol\" comuna es:",
+          "campus": "\"Plantel\" comuna es:",
+          "level": "\"Nivel\" comuna es:",
+          "grade": "\"Grado\" comuna es:",
+          "group": "\"Grupo\" comuna es:",
+          "extracurricular": "\"Extraescolar\" comuna es:",
+          "placeholder": "Selecciona uno"
+        }
+      }
+    },
+    "email": {
+      "title": "Invitar mediante correo electrónico",
+      "email-input": {
+        "title": "Direcciones de correo electrónico a añadir",
+        "input": "Escribe los correos electrónicos separados por coma (,)"
+      },
+      "assign-role": {
+        "title": "¿Cuál rol deseas asignar a estos miembros del personal?"
+      },
+      "button": {
+        "back": "Regresar",
+        "cancel": "Cancelar",
+        "create": "Crear"
+      }
+    }
+  }
+}

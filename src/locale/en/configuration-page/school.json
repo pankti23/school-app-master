@@ -1,0 +1,151 @@
+{
+  "main": {
+    "header": {
+      "title": "School Configuration",
+      "paragraph": "This configuration is used to control all of SchoolAPP."
+    },
+    "add-campus-button": "Add Campus",
+    "add-campus-modal": {
+      "title": "Creating a new Campus",
+      "input-text": "Campus Name",
+      "button": {
+        "cancel": "Cancel",
+        "create": "Create"
+      },
+      "message": {
+        "error": {
+          "400": "Unknown Error",
+          "409": "Campus with this name already exists!",
+          "500": "Server Error! Please contact adminstrator.",
+          "unknown": "Unexpected Error"
+        }
+      }
+    },
+    "button": {
+      "cancel": "Cancel",
+      "confirm": "Confirm",
+      "delete": "Delete",
+      "rename": "Rename"
+    },
+    "type": {
+      "campus": "campus",
+      "level": "level",
+      "grade": "grade",
+      "group": "group"
+    },
+    "message": {
+      "error": {
+        "not-empty": "Cannot delete campus. Make sure campus does not contain any data."
+      }
+    }
+  },
+  "campus": {
+    "add-level-button": "Add Level to",
+    "add-level-modal": {
+      "title": "Add a Level to",
+      "input-text": "Level Name",
+      "button": {
+        "cancel": "Cancel",
+        "create": "Create"
+      },
+      "message": {
+        "error": {
+          "400": "Unknown Error",
+          "409": "Level with this name already exists!",
+          "500": "Server Error! Please contact adminstrator.",
+          "unknown": "Unexpected Error"
+        }
+      }
+    },
+    "button": {
+      "cancel": "Cancel",
+      "confirm": "Confirm",
+      "delete": "Delete",
+      "rename": "Rename"
+    },
+    "delete-confirmation": "Are you sure you want to delete this",
+    "message": {
+      "error": {
+        "400": "Unknown Error",
+        "409": "Campus with this name already exists!",
+        "500": "Server Error! Please contact adminstrator",
+        "campus-not-empty": "Cannot delete campus. Make sure campus does not contain any data.",
+        "campus-not-empty-2": "The campus cannot be deleted. Please remove all data within before deleting.",
+        "grade-not-empty": "The grade cannot be deleted. Please remove all data within before deleting.",
+        "grouping-not-empty": "The grouping cannot be deleted. Please remove all data within before deleting.",
+        "level-not-empty": "Cannot delete level. Make sure campus does not contain any data.",
+        "level-not-empty-2": "The level cannot be deleted. Please remove all data within before deleting.",
+        "level-structure-empty": "Level structure is empty",
+        "unknown": "Unexpected Error"
+      }
+    }
+  },
+  "level": {
+    "add-grade-button": "Add Grade to",
+    "add-grade-modal": {
+      "title": "Add a Grade to",
+      "input-text": "Grade Name",
+      "button": {
+        "cancel": "Cancel",
+        "create": "Create"
+      },
+      "message": {
+        "error": {
+          "400": "Unknown Error",
+          "409": "Grade with this name already exists!",
+          "500": "Server Error! Please contact adminstrator.",
+          "unknown": "Unexpected Error"
+        }
+      }
+    },
+    "message": {
+      "error": {
+        "grade-structure-empty": "Grade structure is empty",
+        "level-not-empty": "Cannot delete level. Make sure campus does not contain any data."
+      }
+    }
+  },
+  "grade": {
+    "add-group-button": "Add Group to",
+    "add-group-modal": {
+      "title": "Add a Group to",
+      "input-text": "Group Name",
+      "button": {
+        "cancel": "Cancel",
+        "create": "Create"
+      },
+      "message": {
+        "error": {
+          "400": "Unknown Error",
+          "409": "Group with this name already exists!",
+          "500": "Server Error! Please contact adminstrator.",
+          "unknown": "Unexpected Error"
+        }
+      }
+    },
+    "message": {
+      "error": {
+        "grade-not-empty": "Cannot delete grade. Make sure grade does not contain any data.",
+        "group-structure-empty": "Group structure is empty",
+        "level-not-empty": "Cannot delete level. Make sure campus does not contain any data."
+      }
+    }
+  },
+  "group": {
+    "members": {
+      "go-to": "Go to",
+      "staff": "Administrative Staff",
+      "principals": ["Principal", "Principals"],
+      "teachers": ["Teacher", "Teachers"],
+      "main-teachers": ["Main Teacher", "Main Teachers"],
+      "subject-teachers": ["Subject Teacher", "Subject Teachers"],
+      "students": ["Student", "Students"],
+      "subjects": ["Subject", "Subjects"]
+    },
+    "message": {
+      "error": {
+        "group-not-empty": "Cannot delete group. Make sure group does not contain any data."
+      }
+    }
+  }
+}

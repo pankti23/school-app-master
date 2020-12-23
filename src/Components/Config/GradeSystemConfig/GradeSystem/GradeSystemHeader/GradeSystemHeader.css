@@ -1,0 +1,91 @@
+.grade-system-header {
+  padding: 15px 30px;
+  border-bottom: 1px solid #dbdbdb;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+.grade-system-header-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grade-system-rename-textbox-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grade-system-rename-textbox-input {
+  padding: 2px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  font-size: 1em;
+}
+
+.grade-system-header-dots {
+  margin-right: 10px;
+}
+
+.grade-system-header-title {
+  color: #000000;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  text-align: left;
+}
+
+.grade-system-rename-cancel-button {
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: 2px solid #cccccc;
+  display: flex;
+  height: 27px;
+  padding: 0 4px;
+  margin-right: 8px;
+}
+
+.grade-system-rename-cancel-button:active {
+  background-color: #f8f8fa;
+  box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.04);
+}
+
+.grade-system-rename-cancel-button:focus {
+  outline: 0;
+}
+
+.grade-system-rename-save-button {
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: 2px solid #cccccc;
+  display: flex;
+  height: 27px;
+  padding: 0 4px;
+  margin-right: 8px;
+}
+
+.grade-system-rename-save-button:active {
+  background-color: #f8f8fa;
+  box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.04);
+}
+
+.grade-system-rename-save-button:focus {
+  outline: 0;
+}
+
+.grade-system-rename-save-button-text {
+  color: #000000;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  margin-left: 4px;
+}

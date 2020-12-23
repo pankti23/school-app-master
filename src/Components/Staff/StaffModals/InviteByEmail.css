@@ -1,0 +1,82 @@
+.invite-email-input-wrapper {
+    max-height: calc(100vh - 198px);
+    overflow-y: auto;
+    padding: 20px 20px;
+}
+
+.invite-textarea {
+    width: 100%;
+    height: 100px;
+    border-radius: 3px;
+    border: 1.5px solid #e4e4e4;
+    padding: 8px 10px;
+    outline: 0;
+    font-size: 0.9rem !important;
+}
+
+.react-multi-email [data-tag] {
+    font-size: 0.9rem !important;
+    text-transform: lowercase !important;
+    padding: 0.6833em 0.933em !important;
+}
+
+.invite-checkbox-container {
+    display: flex;
+    padding: 10px;
+    font-size: 0.8rem;
+    color: #8F8F92;
+    flex-wrap: wrap;
+}
+
+.invite-checkbox-wrapper > label {
+    margin: 5px 5px;
+}
+
+.invite-checkbox-wrapper input {
+    padding: 0;
+    height: initial;
+    width: initial;
+    margin-bottom: 0;
+    display: none;
+    cursor: pointer;
+}
+
+.invite-checkbox-wrapper label {
+    position: relative;
+}
+
+.invite-checkbox-wrapper input:checked + label:before {
+    background-color: #5cc26b;
+    border: 1px solid #5cc26b;
+}
+
+.invite-checkbox-wrapper label:before {
+    content: "";
+    -webkit-appearance: none;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: #ffffff;
+    border: 1px solid rgba(151, 151, 151, 0.2);
+    border-radius: 3px;
+    box-shadow: 0 3px 15px rgba(219, 219, 219, 1);
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.invite-checkbox-wrapper input:checked + label:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 9px;
+    left: 10px;
+    transform: translate(-50%, -50%) rotate(45deg);
+    width: 6px;
+    height: 10px;
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    /* transform: rotate(45deg); */
+    margin-top: -1px;
+}

@@ -1,0 +1,57 @@
+{
+  "main": {
+    "header": {
+      "title": "Sistema de calificación",
+      "paragraph": "Configurar el sistema de calificación de alumnos."
+    },
+    "add-system-button": "Añadir sistema de calificación"
+  },
+  "grade-system": {
+    "title": "Valores del sistema de calificación",
+    "edit-dropdown": {
+      "rename": "Renombrar",
+      "delete": "Eliminar"
+    },
+    "save-button": "Guardar",
+    "table": {
+      "column": {
+        "grade": "GRADO",
+        "status": "ESTADO"
+      },
+      "radio-button": {
+        "fail": "Reprobado",
+        "pass": "Aprobado"
+      },
+      "save-button": "Guardar"
+    },
+    "add-modal": {
+      "title": "Añadir nuevo sistema de calificación",
+      "input-text": "Nombre del sistema de calificación",
+      "system": {
+        "title": "Selecciona un modelo de calificación",
+        "radio-button": {
+          "number": "Numérico (0-10)",
+          "alphabet": "Alfabético (A, B, C, D, E)"
+        }
+      },
+      "button": {
+        "cancel": "Cancelar",
+        "create": "Añadir"
+      }
+    },
+    "delete-modal": {
+      "title": "¿Seguro que deseas eliminar este sistema de calificación?",
+      "button": {
+        "cancel": "Cancelar",
+        "confirm": "Confirmar"
+      }
+    },
+    "edit-modal": {
+      "title": "¿Deseas guardar los cambios al sistema de calificación?",
+      "button": {
+        "cancel": "Cancelar",
+        "confirm": "Guardar"
+      }
+    }
+  }
+}

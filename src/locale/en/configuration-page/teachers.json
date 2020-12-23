@@ -1,0 +1,41 @@
+{
+  "main": {
+    "header": {
+      "title": "Teachers Configuration",
+      "paragraph": "Assign teachers to be main teachers or subject teachers."
+    },
+    "message": {
+      "error": {
+        "not-in-campus": "Please assign a Campus to the user before assigning a subject."
+      }
+    }
+  },
+  "main-teachers": {
+    "title": "Main Teachers",
+    "group": {
+      "add-staff-button": "Add Staff",
+      "table": {
+        "name": "Name",
+        "last-activity": "Last Activity",
+        "actions": "Actions",
+        "search-input": "Search staff",
+        "remove-button": "Remove",
+        "remove-selected-button": ["Remove", "Selected", "Person", "People"]
+      }
+    },
+    "already-added-modal": {
+      "title": ["The main teacher", "already exists in the following group(s)", "Do you want to continue?"],
+      "button": {
+        "cancel": "Cancel",
+        "confirm": "Confirm"
+      }
+    },
+    "replace-modal": {
+      "title": "This group already has an assigned main teacher. Do you want to replace?",
+      "button": {
+        "cancel": "Cancel",
+        "confirm": "Confirm"
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+.grading-system-config-row {
+  height: 39px;
+
+  display: flex;
+}
+
+.grading-system-config-fail {
+  background-color: rgba(212, 61, 81, 0.05);
+}
+
+.grading-system-config-pass {
+  background-color: rgba(66, 212, 61, 0.05);
+}
+
+.grading-system-config-grade-column {
+  padding: 10px 20px;
+  width: 90px;
+  border: 1px solid #DBDBDB;
+}
+
+.grading-system-config-grade-column-text {
+  color: #000000;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  opacity: 0.33;
+  text-align: left;
+}
+
+.grading-system-config-status-column {
+  display: flex;
+  padding: 10px;
+  border: 1px solid #DBDBDB;
+  flex: 1;
+}
+
+.grading-system-config-status-column-text-selected {
+  color: #000000;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  text-align: left;
+}
+
+.grading-system-config-status-column-text{
+  color: #000000;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  opacity: 0.5;
+  text-align: left;
+}

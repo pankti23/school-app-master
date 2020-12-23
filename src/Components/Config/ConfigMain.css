@@ -1,0 +1,32 @@
+.ConfigMain {
+  display: flex;
+  background-color: #fafafc;
+  height: 100%;
+}
+
+.config-navbar {
+  position: fixed;
+  width: 200px;
+}
+
+.config-wrapper {
+  flex: 4;
+  margin-left: 220px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .ConfigMain {
+    flex-direction: column;
+  }
+
+  .config-navbar {
+    flex: 0.5;
+    position: static;
+    width: auto;
+  }
+
+  .config-wrapper {
+    margin-left: 0;
+    z-index: initial;
+  }
+}

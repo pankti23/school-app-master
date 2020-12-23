@@ -1,0 +1,26 @@
+.HomePage {
+  background-color: #cfcfd1;
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 0 auto;
+  min-height: 100vh;
+}
+
+.navbar-homepage-wrapper {
+  flex: 1;
+  max-width: 70px;
+
+  /* commenting this out fixes modal background overlay?
+   * just hoping commenting this out doesn't break anything
+
+  z-index: 1;
+
+  */
+
+  height: 100%;
+}
+
+.body-homepage-wrapper {
+  flex: 5;
+  width: calc(100% - 70px);
+}

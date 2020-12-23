@@ -1,0 +1,126 @@
+{
+  "login": {
+    "title": "Welcome back to SchoolApp",
+    "form": {
+      "title": "Sign in to continue",
+      "input": {
+        "email": {
+          "label": "Email Address",
+          "placeholder": "your@email.com"
+        },
+        "password": {
+          "label": "Password",
+          "placeholder": "Password"
+        },
+        "school-code": {
+          "label": "School Code",
+          "placeholder": "Please Select a School Code"
+        },
+        "school-year": {
+          "label": "Academic Year",
+          "placeholder": "Please Select a Year"
+        }
+      },
+      "sign-in-button": "Sign In",
+      "terms": [
+        "By signing in you agree to our",
+        "Privacy Policy",
+        "and",
+        "Terms and Conditions"
+      ],
+      "forgot-password": "Forgot Password?",
+      "message": {
+        "error": {
+          "invalid-credentials": "Credentials are invalid!"
+        }
+      }
+    }
+  },
+  "forgot-password": {
+    "back-link": "Go Back",
+    "title": "Forgot your password?",
+    "form": {
+      "input": {
+        "school-code": {
+          "label": "School Code",
+          "placeholder": "Please Select a School Code"
+        },
+        "school-year": {
+          "label": "Academic Year",
+          "placeholder": "Please Select a Year"
+        },
+        "email": {
+          "label": "Email Address",
+          "placeholder": "your@email.com"
+        }
+      },
+      "link-button": "Send Link",
+      "message": {
+        "error": {
+          "invalid-email-school-code": "Invalid email address or school code does not match email!",
+          "missing-email-school-code": "Email and School Code are required!"
+        },
+        "success": {
+          "email-sent": "Email will be send shortly!"
+        }
+      }
+    }
+  },
+  "reset-password": {
+    "title": "Set Your Password",
+    "form": {
+      "input": {
+        "password": {
+          "label": "New Password",
+          "placeholder": "********"
+        },
+        "confirm-password": {
+          "label": "Confirm Password",
+          "placeholder": "********"
+        }
+      },
+      "reset-button": "Reset Password",
+      "message": {
+        "error": {
+          "invalid-token": "Invalid or expired token!",
+          "missing-password": "Please input new password twice!",
+          "mismatched-passwords": "Passwords do not match!"
+        }
+      }
+    }
+  },
+  "create-password": {
+    "title": "Set Your Password",
+    "form": {
+      "input": {
+        "name": {
+          "label": "Full Name",
+          "placeholder": "Enter Full Name Here"
+        },
+        "password": {
+          "label": "New Password",
+          "placeholder": "********"
+        },
+        "confirm-password": {
+          "label": "Confirm Password",
+          "placeholder": "********"
+        }
+      },
+      "login-button": "Go To Login Page",
+      "message": {
+        "error": {
+          "invalid-token": "Invalid or expired token!",
+          "missing-password": "Please input new password twice!",
+          "mismatched-passwords": "Passwords do not match!",
+          "mismatched-passwords-name": "Passwords do not match and/or name field is empty!"
+        }
+      }
+    }
+  },
+  "privacy-policy": {
+    "back-link": "Back"
+  },
+  "terms-and-conditions": {
+    "back-link": "Back"
+  }
+}

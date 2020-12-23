@@ -1,0 +1,21 @@
+.modal2-container {
+  margin: 0 32px;
+
+  @media (max-width: 600px) {
+    margin: 0 16px;
+  }
+}
+
+.modal2-wrapper {
+  align-items: center;
+  background-color: rgba(83, 107, 148, 0.664);
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  left: 0;
+  overflow: auto;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 11;
+}

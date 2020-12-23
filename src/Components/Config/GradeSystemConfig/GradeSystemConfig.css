@@ -1,0 +1,13 @@
+.grade-system-config-container {
+  background-color: #ffffff;
+  border-radius: 6px 0 0 6px;
+  border: 1px solid rgba(151, 151, 151, 0.1);
+  box-shadow: -1px 0 1px 0 #ebebeb, -1px 0 15px 0 #dbdbdb;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.grade-system-config-body {
+  padding: 20px 40px 40px;
+}

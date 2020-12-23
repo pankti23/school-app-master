@@ -1,0 +1,29 @@
+.grade-system-open-button {
+  background-color: #FAFAFC;
+  border: 1px solid #DBDBDB;
+  border-radius: 3px;
+  /* width: 102px;
+  height: 35px; */
+
+  padding: 7px 15px 8px 15px;
+
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+.grade-system-open-button:hover {
+  cursor: pointer;
+  background-color: rgb(241, 241, 245);
+}
+
+.grade-system-open-button-text {
+  color: #000000;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14px;
+  text-align: left;  
+  margin-left: 8px;
+}
+

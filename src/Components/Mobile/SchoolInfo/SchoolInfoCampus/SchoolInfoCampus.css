@@ -1,0 +1,184 @@
+.school-info-campus-container {
+  background-color: #fafafc;
+  border-radius: 6px;
+  border: 1px solid rgba(151, 151, 151, 0.1);
+  box-shadow: 0 -1px 1px 0 #ebebeb, 0 -3px 6px 0 #dbdbdb;
+}
+
+.school-info-campus-header-container {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 21px 30px;
+}
+
+.school-info-campus-header-title-container {
+}
+
+.school-info-campus-header-title-text {
+  color: #000000;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+}
+
+.school-info-campus-info-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0 30px 30px;
+}
+
+.school-info-campus-info-form-divider {
+  background-color: #ebebeb;
+  height: 1px;
+  margin: 10px 0 15px;
+}
+
+.school-info-campus-info-form-email-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 15px;
+}
+
+.school-info-campus-info-form-input {
+  background-color: #ffffff;
+  border-radius: 2px;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  color: #363636;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  height: 40px;
+  line-height: 17px;
+  padding: 0 12px;
+}
+
+.school-info-campus-info-form-input-container {
+  display: flex;
+  flex-basis: calc(100% / 3);
+  flex-direction: column;
+  margin-bottom: 20px;
+  padding: 0 30px;
+}
+
+.school-info-campus-info-form-input-title-container {
+  margin-bottom: 8px;
+}
+
+.school-info-campus-info-form-input-title-text {
+  color: #000000;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17px;
+}
+
+.school-info-campus-info-form-inputs-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -30px;
+}
+
+.school-info-campus-info-form-phone-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 15px;
+}
+
+.school-info-campus-info-form-social-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 15px;
+}
+
+.school-info-campus-info-form-title-container {
+  margin: 15px 0 20px;
+}
+
+.school-info-campus-info-form-title-text {
+  color: #000000;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+}
+
+.school-info-campus-info-form-top-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 15px;
+}
+
+.school-info-campus-info-save-button {
+  background-color: #737376;
+  border-radius: 6px;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 1px 0 #ebebeb, 0 3px 6px 0 #dbdbdb;
+  height: 35px;
+  margin-top: 8px;
+  padding: 0;
+}
+
+.school-info-campus-info-save-button:active {
+  background-color: #696972;
+  box-shadow: 0 1px 1px 0 #ebebeb, 0 3px 6px 0 #dbdbdb,
+    inset 0px 0px 8px rgba(0, 0, 0, 0.04);
+}
+
+.school-info-campus-info-save-button-text {
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 16px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+}
+
+.school-info-campus-info-save-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+
+.school-info-campus-info-save-error-text {
+  color: #ff0000;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.school-info-campus-info-save-success-text {
+  color: #00dd00;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.school-info-campus-info-save-text {
+  color: #000000;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.school-info-campus-info-save-text-container {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 1300px) {
+  .school-info-campus-info-form-input-container {
+    flex-basis: 50%;
+  }
+}
+
+@media (max-width: 800px) {
+  .school-info-campus-info-form-input-container {
+    flex-basis: 100%;
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "main": {
+    "header-title": "Scores",
+    "header-paragraph": "These are the scores for the students in the organization.",
+    "message": {
+      "error": {
+        "api": "Error loading data."
+      }
+    }
+  },
+  "campus": {
+    "due-date": ["The next date to post scores for", "is:"],
+    "message": {
+      "error": {
+        "api": "Error loading data."
+      }
+    }
+  },
+  "group-table": {
+    "search-placeholder": "Find students",
+    "student-name": "STUDENT NAME",
+    "save-button": "Save",
+    "save-all-button": "Save All",
+    "message": {
+      "error": {
+        "locked": "Error: Scores are locked!",
+        "api": "Error: Request failed with status code"
+      },
+      "success": "Score information saved!"
+    }
+  }
+}

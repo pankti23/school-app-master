@@ -1,0 +1,12 @@
+{
+  "title": "Configuración",
+  "links": {
+    "school": "Escuela",
+    "grade-system": "Sistema de calificación",
+    "subjects": "Materias",
+    "admin-staff": "Personal administrativo",
+    "teachers": "Profesores",
+    "extracurricular": "Extra-escolar",
+    "permissions": "Permisos"
+  }
+}

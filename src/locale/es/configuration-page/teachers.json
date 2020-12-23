@@ -1,0 +1,46 @@
+{
+  "main": {
+    "header": {
+      "title": "Configuración de profesores",
+      "paragraph": "Asignar profesores/as como titulares o adjuntos."
+    },
+    "message": {
+      "error": {
+        "not-in-campus": "Favor de asignar un Plantel al usuario antes de asignar alguna materia."
+      }
+    }
+  },
+  "main-teachers": {
+    "title": "Todos Profesores titulares",
+    "group": {
+      "add-staff-button": "Añadir personal",
+      "table": {
+        "name": "Nombre",
+        "last-activity": "Última actividad",
+        "actions": "Acciones",
+        "search-input": "Buscar personal",
+        "remove-button": "Eliminar",
+        "remove-selected-button": [
+          "Eliminar",
+          "personas",
+          "seleccionadas",
+          "seleccionadas"
+        ]
+      }
+    },
+    "already-added-modal": {
+      "title": ["El profesor", "ya está asignado al grupo", "¿Desea continuar?"],
+      "button": {
+        "cancel": "Cancelar",
+        "confirm": "Confirmar"
+      }
+    },
+    "replace-modal": {
+      "title": "Este grupo ya tiene un profesor/a titular asignado. ¿Deseas reemplazarlo?",
+      "button": {
+        "cancel": "Cancelar",
+        "confirm": "Confirmar"
+      }
+    }
+  }
+}

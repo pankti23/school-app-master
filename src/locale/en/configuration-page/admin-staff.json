@@ -1,0 +1,58 @@
+{
+  "main": {
+    "header": {
+      "title": "Administrative Staff Configuration",
+      "paragraph": "This is where you configure principals and school administrators for your campus and levels."
+    }
+  },
+  "school": {
+    "title": "School Organization",
+    "admin": {
+      "title": "School Administrators",
+      "table": {
+        "name": "Name",
+        "search-input": "Search staff"
+      }
+    }
+  },
+  "campus": {
+    "title": "Principals",
+    "add-staff-button": "Add Staff",
+    "add-staff-modal": {
+      "title": "Add members",
+      "subtitle": "Staff",
+      "search-input": "Search staff",
+      "button": {
+        "cancel": "Cancel",
+        "add": "Add"
+      }
+    },
+    "table": {
+      "name": "Name",
+      "actions": "Actions",
+      "search-input": "Search staff",
+      "remove-button": "Remove",
+      "remove-selected-button": ["Remove", "Selected", "Person", "People"]
+    }
+  },
+  "level": {
+    "title": "Principals",
+    "add-staff-button": "Add Staff",
+    "add-staff-modal": {
+      "title": "Add members",
+      "subtitle": "Staff",
+      "search-input": "Search staff",
+      "button": {
+        "cancel": "Cancel",
+        "add": "Add"
+      }
+    },
+    "table": {
+      "name": "Name",
+      "actions": "Actions",
+      "search-input": "Search staff",
+      "remove-button": "Remove",
+      "remove-selected-button": ["Remove", "Selected", "Person", "People"]
+    }
+  }
+}

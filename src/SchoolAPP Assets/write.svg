@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="16px" viewBox="0 0 17 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>Group 6</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Admin" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Configure-Permissions" transform="translate(-407.000000, -448.000000)">
+            <g id="Group-4" transform="translate(335.000000, 147.000000)">
+                <g id="Group-20" transform="translate(30.000000, 96.000000)">
+                    <g id="Group-16" transform="translate(0.000000, 50.000000)">
+                        <g id="Group-13" transform="translate(0.000000, 138.000000)">
+                            <g id="Group-5">
+                                <g id="Group-9" transform="translate(18.874296, 15.000000)">
+                                    <g id="Group-7">
+                                        <g id="Group-6" transform="translate(24.000000, 2.000000)">
+                                            <rect id="Rectangle" fill="#0037F6" x="0" y="0" width="16" height="16" rx="3"></rect>
+                                            <g id="edit" transform="translate(2.000000, 2.000000)" fill-rule="nonzero">
+                                                <rect id="Rectangle" fill="#000000" opacity="0" x="0" y="0" width="12" height="12"></rect>
+                                                <path d="M9.7,3.67 L8.33,2.3 C7.95986197,1.95232697 7.38791164,1.93727565 7,2.265 L2.5,6.765 C2.33838284,6.92798255 2.2377523,7.14160177 2.215,7.37 L2,9.455 C1.98636301,9.60327237 2.03951846,9.7499081 2.145,9.855 C2.23935942,9.94859326 2.36709851,10.0007684 2.5,10.0000084 L2.545,10.0000084 L4.63,9.81 C4.85839823,9.7872477 5.07201745,9.68661716 5.235,9.525 L9.735,5.025 C10.098645,4.6408309 10.0829932,4.03488324 9.7,3.67 Z M8,5.34 L6.66,4 L7.635,3 L9,4.365 L8,5.34 Z" id="Shape" fill="#FFFFFF"></path>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

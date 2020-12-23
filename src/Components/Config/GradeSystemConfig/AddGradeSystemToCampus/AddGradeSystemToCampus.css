@@ -1,0 +1,32 @@
+.add-grade-system-to-campus-container {
+  background-color: #FAFAFC;
+  border: 1px solid rgba(151, 151, 151, 0.1);
+  border-radius: 6px;
+  box-shadow: 0 -1px 1px 0 #EBEBEB, 0 -3px 6px 0 #DBDBDB;
+  /* width: 1065px; */
+  /* height: 64px; */
+  padding: 20px 30px;
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+  align-content: center
+}
+
+.add-grade-system-to-campus-header-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center 
+}
+
+.add-grade-system-to-campus-header-title {
+  color: #000000;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  text-align: left;
+}

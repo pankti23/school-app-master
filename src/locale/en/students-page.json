@@ -1,0 +1,136 @@
+{
+  "main": {
+    "header": {
+      "title": "Students",
+      "paragraph": "These are all of the students of your organization.",
+      "add-button": "Invite New"
+    }
+  },
+  "students-table": {
+    "search-input": "Search for students",
+    "button": {
+      "modify": "Modify",
+      "delete": "Delete"
+    },
+    "head": {
+      "student-name": "Student Name",
+      "campus": "Campus",
+      "level": "Level",
+      "grade": "Grade",
+      "group": "Group",
+      "parent1": "Parent #1",
+      "parent2": "Parent #2",
+      "asg": "After School Groups",
+      "last-active": "Last Active",
+      "actions": "Actions"
+    },
+    "row": {
+      "more": "More",
+      "button": {
+        "modify": "Modify",
+        "resend": "Resend",
+        "delete": "Delete"
+      },
+      "resend": {
+        "message": {
+          "error": {
+            "activated": "User is already activated!"
+          },
+          "success": {
+            "sent": "A new activation email has been sent."
+          }
+        }
+      }
+    },
+    "pagination": {
+      "entries": ["Showing", "of", "entries"],
+      "display": ["Display", "Per Page"],
+      "go-to-page": "Go to page",
+      "go": "Go"
+    }
+  },
+  "modify-modal": {
+    "title": ["Modify", "Selection"],
+    "input": {
+      "student-name": "Student Name",
+      "campus": "Campus",
+      "level": "Level",
+      "grade": "Grade",
+      "group": "Group",
+      "email1": "Email #1",
+      "email2": "Email #2",
+      "asg": "After School Groups",
+      "placeholder": "Choose"
+    },
+    "button": {
+      "cancel": "Cancel",
+      "save": "Save",
+      "add-new-asg": "Add"
+    }
+  },
+  "delete-modal": {
+    "title": "Are you sure you want to delete these students?",
+    "button": {
+      "cancel": "Cancel",
+      "confirm": "Confirm"
+    }
+  },
+  "invite-modal": {
+    "title": "How would you like to invite new students to your organization?",
+    "button": {
+      "import-csv": "Import students using a .CSV file",
+      "invite-email": "Add students by email",
+      "cancel": "Cancel"
+    },
+    "csv": {
+      "title": "Importing students using .CSV file",
+      "template-download": "Download the student invitation .CSV template",
+      "upload-csv": "Upload your .CSV file",
+      "button": {
+        "upload": "Select a file",
+        "back": "Back",
+        "cancel": "Cancel",
+        "create": "Create"
+      },
+      "import-columns": {
+        "header": {
+          "title": "Double-check the imported columns",
+          "paragraph": "Ensure these columns are assigned correctly, as imported students cannot be reverted.",
+          "warning-message": "*Note: Please make sure you fill all the data in the CSV."
+        },
+        "label": {
+          "column": "column is:",
+          "placeholder": "Choose One"
+        }
+      }
+    },
+    "email": {
+      "title": "Adding students by email",
+      "email-input": {
+        "name": "Student Name",
+        "email1": "#1 Parent Email Address",
+        "email2": "#2 Parent Email Address",
+        "campus": "Campus",
+        "level": "Level",
+        "grade": "Grade",
+        "group": "Group",
+        "placeholder": "Choose",
+        "more-button": "Invite More Students"
+      },
+      "button": {
+        "back": "Back",
+        "cancel": "Cancel",
+        "create": "Create"
+      }
+    },
+    "message": {
+      "info": {
+        "add": "You’ve added new users! Please wait a moment or refresh your page to see your changes."
+      }
+    }
+  },
+  "errors": {
+    "unauthorized-access": "Please ask Admin for permission to access",
+    "role-already-assigned": "The user is already assigned a role and cannot be assigned another"
+  }
+}
